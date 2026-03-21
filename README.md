@@ -1,4 +1,6 @@
 # RouteCraft
+AI-Powered Smart Multi-Modal Commute Optimizing System
+
 **Overview**
 
 RouteCraft is an AI-powered web application that helps users find the most cost-effective and efficient way to travel between two locations.
