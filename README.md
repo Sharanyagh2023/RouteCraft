@@ -11,4 +11,4 @@ Combines different modes of transport
 
 Generates smart route combinations
 
-Recommends the best travel option
+Recommends the best travel options
