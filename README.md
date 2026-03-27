@@ -18,4 +18,7 @@ An intelligent travel agent that eliminates app-switching fatigue by dynamically
 
 ​🎯 One-Click Deep Linking: Seamlessly transitions from the RouteCraft interface to pre-filled booking screens on ride-hailing apps for a frictionless experience.
 
-<img width="673" height="1023" alt="image" src="https://github.com/user-attachments/assets/0d173d41-499d-41c7-b2b9-181477f25c75" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/0d173d41-499d-41c7-b2b9-181477f25c75" />
+
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/489f6cb9-790f-4b8a-b6d5-a7da6b9abb6f" />
+
