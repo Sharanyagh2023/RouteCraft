@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RouteCraft
 
-## Getting Started
+Full-stack AI-powered commute optimization app for Bengaluru.
 
-First, run the development server:
+## Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Frontend: Next.js 14, TypeScript, Tailwind, Zustand, Framer Motion, Leaflet + OpenStreetMap
+- Backend: FastAPI, PostgreSQL, SQLAlchemy, Alembic, Redis, WebSockets
+- AI/NLP: Gemini Flash + spaCy + scikit-learn ranking
+
+## Folder structure
+
+```text
+.
+├── src/                       # Next.js frontend (App Router)
+├── backend/
+│   ├── app/
+│   │   ├── api/routes/        # optimize/chat/trips/preferences endpoints
+│   │   ├── services/          # route/fare/decision/chat/tracking engines
+│   │   ├── websocket/         # /ws/location/{trip_id}
+│   │   ├── db/                # SQLAlchemy engine/session/base
+│   │   ├── models/            # User/Trip/Preference
+│   │   └── main.py            # FastAPI app
+│   ├── alembic/
+│   │   └── versions/          # DB migration
+│   └── requirements.txt
+└── .env.example
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Frontend setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Install packages:
+   - `npm install`
+2. Create env file:
+   - Copy `.env.example` to `.env.local`
+3. Fill required vars:
+   - `NEXT_PUBLIC_API_BASE_URL=http://localhost:8000`
+   - `NEXT_PUBLIC_TRACKING_WS_URL=ws://localhost:8000/ws/location`
+   - `NEXT_PUBLIC_OPENWEATHER_API_KEY=...`
+4. Run frontend:
+   - `npm run dev`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Backend setup
 
-## Learn More
+1. Create Python virtual env and install:
+   - `pip install -r backend/requirements.txt`
+2. Create env file:
+   - Copy `backend/.env.example` to `backend/.env`
+3. Run migration:
+   - `cd backend`
+   - `alembic upgrade head`
+4. Start backend:
+   - `uvicorn app.main:app --reload --port 8000`
 
-To learn more about Next.js, take a look at the following resources:
+## API endpoints
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `POST /api/optimize`
+- `POST /api/chat`
+- `GET /api/trips`
+- `PUT /api/preferences`
+- `WS /ws/location/{trip_id}`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Notes
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Backend route engine uses OSRM + Nominatim and falls back to simulated route generation if routing/weather APIs fail.
+- Frontend consumes backend responses dynamically and supports deep-link ride provider redirects.
