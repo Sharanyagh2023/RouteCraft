@@ -5,7 +5,7 @@ import { LogIn, ArrowRight, Mail, Lock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
-export function LoginPage() {
+export default function LoginPage() {
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -30,7 +30,7 @@ export function LoginPage() {
 
     const name = email.split('@')[0];
     localStorage.setItem('user', JSON.stringify({ name, email }));
-    navigate('/dashboard', { replace: true });
+    navigate('/dashboard');
   };
 
   return (

@@ -282,6 +282,44 @@ async function startServer() {
     res.json({ status: "healthy", timestamp: new Date().toISOString(), engine: "RouteCraft-v1-Hybrid" });
   });
 
+  // ============================================================
+  // Python Multi-Modal Graph Router Proxy
+  // ============================================================
+  app.post("/api/calculate-route", async (req, res) => {
+    const { source, destination } = req.body;
+
+    if (!source || !destination) {
+      return res.status(400).json({ error: "Missing source or destination" });
+    }
+
+    try {
+      const response = await fetch("http://localhost:8000/get_route", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ source, destination }),
+      });
+
+      if (!response.ok) {
+        const errText = await response.text();
+        console.error(`[GraphRouter] Python backend error (${response.status}):`, errText);
+        return res.status(response.status).json({
+          error: "Graph routing engine error",
+          details: errText,
+        });
+      }
+
+      const data = await response.json();
+      console.log(`[GraphRouter] ${source} -> ${destination} | fastest=${data.fastest?.[0]?.duration}min cheapest=₹${data.cheapest?.[0]?.price}`);
+      res.json(data);
+    } catch (error: any) {
+      console.error("[GraphRouter] Python backend unreachable:", error.message);
+      res.status(503).json({
+        error: "Routing engine unavailable",
+        details: "Python FastAPI backend is not running on port 8000. Start it with: uvicorn main:app --port 8000",
+      });
+    }
+  });
+
   // Industrial Orchestrator (TS Implementation of your Microservices Diagram)
   // API Layer: Interaction Handlers
   app.post("/api/v1/chat", async (req, res) => {
