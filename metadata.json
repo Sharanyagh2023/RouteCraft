@@ -1,0 +1,11 @@
+{
+  "name": "Remix: Remix: Remix: RouteCraft",
+  "description": "Multi-modal route planner with real-time split-route optimization and ride-hailing integration.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "routing",
+    "real-time-data"
+  ]
+}
