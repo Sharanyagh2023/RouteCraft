@@ -42,4 +42,4 @@ https://drive.google.com/file/d/1XahADlnsHirRe_pyAWrbRwy4IsuCHMKs/view?usp=shari
 
 ## 🚀 Live Demo
 
-👉 Try the app here: https://your-deployed-link.com
+👉 Try the app here: https://routecraft-ai.vercel.app/
