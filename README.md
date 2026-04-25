@@ -40,3 +40,6 @@ Model:
 🔗 **Watch Promo Video:**
 https://drive.google.com/file/d/1XahADlnsHirRe_pyAWrbRwy4IsuCHMKs/view?usp=sharing
 
+## 🚀 Live Demo
+
+👉 Try the app here: https://your-deployed-link.com
