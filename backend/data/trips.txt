@@ -1,0 +1,169 @@
+route_id,service_id,trip_id,trip_headsign,direction_id,block_id,shape_id,dummy,normal_speed,peakhour_days,peakhour_times,spd_reduction_percent
+LRYH1,FULLW,LRYH10620,YH1- Yeshwantpur->Hosur,0,,,1
+LR572,FULLW,LR5720715,572SW(SR) - Bangalore Salem Passenger,0,,,1
+LRYH2,FULLW,LRYH21535,YH2 - Yeshwantpur ->Hosur,0,,,1
+LR574,FULLW,LR5741605,574SW(SR)- Yeshwantpur Salem Passenger,0,,,1
+LRHY1,FULLW,LRHY10810,HY1-Hosur->Yeshwantpur,0,,,1
+LR573,FULLW,LR5730844,573SR -Salem Yesvantpur Passenger,0,,,1
+LRHY2,FULLW,LRHY21759,HY2-Hosur->Yeshwantpur,0,,,1
+LRYD1,FULLW,LRYD11040,YD1->Yeswantpur Devanahalli Special,0,,,1
+LR102,FULLW,LR1020920,102SW->Bangalore Arakkonam Passenger,0,,,1
+LR526,FULLW,LR5260700,526SW->Bangarapet Marikuppam Passenger,0,,,1
+LR433,FULLW,LR4330800,433SW->Guntur Passenger,0,,,1
+LR101,FULLW,LR1011748,101SR->Arakkonam Bangalore Passenger,0,,,1
+LR434,FULLW,LR4341524,434SC->Guntur Passenger,0,,,1
+LR551,FULLW,LR5510840,551SW->Bangalore Chik Ballapur Passenger,0,,,1
+LR571,FULLW,LR5711710,571SR->Salem Bangalore Passenger,0,,,1
+LR6521,FULLW,LR65212228,6521-> Bangarpet- Bangalore Express,0,,,1
+LR2610,FULLW,LR26100800,2610 Bangalore-Chennai Express,0,,,1
+LR2609,FULLW,LR26091902,2609 Chennai-Bangalore Express,0,,,1
+LR2677,FULLW,LR26770615,2677 Bangalore- Ernakulam,0,,,1
+LR2678,FULLW,LR26781848,2678 Ernakulam- Bangalore,0,,,1
+LR6222,FULLW,LR622220450,62222->Kaveri Express,0,,,1
+LR6216,FULLW,LR62161815,6216->Chamundi Express,0,,,1
+LR6731,FULLW,LR67310700,6731->Mysore Express,0,,,1
+LR7304,FULLW,LR73041200,7304->Yesvantpur Mysore Express,0,,,1
+LR214,FULLW,LR2140730,214->Tirupati Chamarajanagar,,,,1
+LR230,FULLW,LR2300525,230->Bangalore Mysore Passenger,0,,,1
+LR238,FULLW,LR2381900,238->Bangalore Mysore Passenger,0,,,1
+LR232,FULLW,LR2320930,232->Bangalore Mysore Passenger,0,,,1
+LR234,FULLW,LR2341625,234->Bangalore Mysore Passenger,0,,,1
+LR236,FULLW,LR2362355,236->Mysore Passenger,0,,,1
+LR6232,FULLW,LR62321800,6232 Mysore Mayiladuthurai,0,,,1
+LR6527,FULLW,LR65272000,6527 Yeshvantapur- Kannur,0,,,1
+BIAS1 ,FULLW,BIAS10600,"Gottigere - BIAL
+",0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS4 ,FULLW,BIAS40600,HAL Main Gate - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS4 ,FULLW,BIAS406001,HAL Main Gate - BIAL,1,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS4 ,FULLW,BIAS40930,HAL Main Gate - BIAL,0,,,1,80,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS5 ,FULLW,BIAS50515,J.P.Nagara 6th Phase - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS6 ,FULLW,BIAS60820,Kadugodi Bus Station - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS7 ,FULLW,BIAS70610,H.S.R. Layout (BDA Complex)  - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS7A ,FULLW,BIAS7A0830,H.S.R. Layout (BDA Complex)  - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS8 ,FULLW,BIAS80400,Electronic City - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS8A ,FULLW,BIAS8A0630,Kuvempu Nagar (BTM Layout) - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS9 ,FULLW,BIAS90600,Majestic/ KBS - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS10 ,FULLW,BIAS100645,MCTC Bus Station - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS11 ,FULLW,BIAS110330,Chikkalasandra Bus Stand - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+BIAS12 ,FULLW,BIAS120430,Kuvempu Nagara (BTM Layout) - BIAL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+LR7209,FULLW,LR72091320,Bangalore- Kakinada,0,,,1
+LR2640,FULLW,LR26401430,Bangalore- Chennai ,0,,,1
+LR2786,FULLW,LR27861820,Bangalore-Kacheguda,0,,,1
+LR530,FULLW,LR5300950,Bangalore-Bangarpet,0,,,1
+LR6519,FULLW,LR65190655,Jolarpettai- Bangalore,0,,,1
+V2,FULLW,V20815,Kempegowda Bus Station-J P Nagar 6th Phase,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V2K ,FULLW,V2K0000,Kempegowda Bus Station-J P Nagar Kalyani Magnum,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+VJ10,FULLW,VJ100000,Kempegowda Bus Station -Avalahalli BDA Park ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V25A,FULLW,V25A0000,Kuvempunagar (BTM Layout) -Kempegowda bus station,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V45G,FULLW,V45G0825,Kempegowda Bus Station -Banashankari 3rd Stage 3rd Phase ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V195,FULLW,V1950750,Shivajinagar -Chandra Layout ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V201G,FULLW,V201G0600,Banashankari -Jeevanabhimanagar ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V201R,FULLW,V201R0600,Srinagar -C V Raman Nagar ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V258C,FULLW,V258C0805,Kempegowda Bus Station -Nelamangala ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V276,FULLW,V2760730,Kempegowda Bus Station -Vidyaranyapura ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V276G,FULLW,V276G0800,Vidyaranyapura -Electronic City ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V225CA,FULLW,V225CA0000,Kempegowda Bus Station -BGS Health City ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V250I,FULLW,V250I0805,Kempegowda Bus Station -Chikkabanavara ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V287,FULLW,V2870000,Kempegowda Bus station- Hebbala,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V319C,FULLW,V319C0000,Kempegowda Bus Station -Kadugodi ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V328M,FULLW,V328M,Kempegowda Bus Station -Gunjur ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V331A,FULLW,V331A0605,Shivajinagar -Kadugodi ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V333P,FULLW,V333P0700,Kempegowda Bus Station -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V333R,FULLW,V333R0000,Kempegowda Bus Station -Marathahalli Bridge ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V333T,FULLW,V333T0700,Nagarabhavi BDA Complex -Marathahalli Bridge ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V333W,FULLW,V333W0000,Kempegowda Bus Station -Kannalli ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V333Z,FULLW,V333Z0000,Mahalakshmi Layout -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V335E,FULLW,V335E0530,Kempegowda Bus Station -Kadugodi ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V335EA,FULLW,V335EA0000,Yeshwanthpur -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V335T,FULLW,V335T0000,Basaveshwaranagar -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V356C,FULLW,V356C0600,Kempegowda Bus Station -Electronic City ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V356M,FULLW,V356M0745,Kempegowda Bus Station -Anekal ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V356N,FULLW,V356N0520,Kempegowda Bus Station -Narayana Hrudayalaya ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V356P,FULLW,V356P0730,Basaveshwaranagar -Electronic City ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V356Q,FULLW,V356Q0740,Kempegowda Bus Station -Electronic City Wipro Gate via Jayanagar,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V360B,FULLW,V360B0600,Kempegowda Bus Station -Attibele ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V362E,FULLW,V362E1220,Shivajinagar -Electronic City ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V365,FULLW,V3650000,Kempegowda Bus Station -Bannerghatta National Park ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V365B,FULLW,V365B0000,Kempegowda Bus station-Gottigere,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V365P,FULLW,V365P0745,Kempegowda Bus Station -Anekal ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V373G,FULLW,V373G0800,Srinagar-Banashankari Electronic City,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V373GR,FULLW,V373GR0000,Rajarajeshwari nagar- Electronic city,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V375A,FULLW,V375A0530,Kengeri Housing Board Quarters -Electronic City Wipro Gate ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V402B,FULLW,V402B0000,Kempegowda Bus Station -Yelahanka Satellite Town 5th Phase ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V402T,FULLW,V402T0755,Yelahanka Satellite Town 5th Phase -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V411L,FULLW,V411L0700,Shanthinagar Bus Station -Kadugodi ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V411K,FULLW,V411K0700,Shanthinagar Bus Station -Kadugodi ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500A,FULLW,V500A0735,Banashankari -Hebbal ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500C,FULLW,V500C0000,Banashankari-ITPL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500D,FULLW,V500D0730,Central Silk Board -Hebbal ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500DA,FULLW,V500DA0000,Electronic City -Yelahanka Satellite Town 5th Phase ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500DB,FULLW,V500DB0700,Hope Farm -Hebbal ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500K,FULLW,V500K0610,Vijayanagar -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500KA,FULLW,V500KA0610,ISKCON -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500KB,FULLW,V500KB0000,Chowdeshwari Bus Station -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500KC,FULLW,V500KC0800,Nagarabhavi BDA Complex -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500KG,FULLW,V500KG0000,Global Village(Mysore road)- ITPL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500KM,FULLW,V500KM0725,J P Nagar Kalyani Magnum -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500KR,FULLW,V500KR0725,BEML 5th Stage -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500KS,FULLW,V500KS0740,Kengeri Housing Board Quarters -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500N,FULLW,V500N0815,Vijayanagar -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500NA,FULLW,V500NA0000,Silk board-ITPL,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500P,FULLW,V500P0600,Chikkalasandra -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V500W,FULLW,V500W0740,ISRO Layout -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V505,FULLW,V5050715,Electronic City -ITPL ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V505A,FULLW,V505A0715,Domlur -Electronic City Wipro Gate ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V600CK,FULLW,V600CK0000,Electronic City-Banashankari,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V600K,FULLW,V600K0600,Vijayanagar -Narayana Hrudayalaya ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V600KA,FULLW,V600KA0640,Vijayanagar -Electronic City Phase-2 ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V600KC,FULLW,V600KC0800,Nagarabhavi BDA Complex -Electronic City ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V600KG,FULLW,V600KG0000,Global Village(Mysore road)- Electronic City,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V600Q,FULLW,V600Q0740,Banashankari-Jayanagar 4th block-Electronic city,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+V600M,FULLW,V600M0715,Chikkalasandra -Electronic City Wipro Gate ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G1,FULLW,G10710,Trinity Circle -Kadugodi ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G2,FULLW,G20625,Brigade Road Junction -Electronic City Wipro Gate ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G3,FULLW,G30540,Mayo Hall -Sarjapur ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G4,FULLW,G40615,Brigade Road Junction -Bannerghatta National Park ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G5,FULLW,G50620,Corporation -Kaggalipura ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G6,FULLW,G60645,Kengeri Housing Board Quarters -Shanthinagar Bus Station ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G7,FULLW,G70720,Kempegowda Bus Station -Gollarahatti ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G8,FULLW,G80605,Nelamangala -Parade Ground ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G9,FULLW,G90545,Yelahanka Satellite Town 5th Phase -Parade Ground ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G10,FULLW,G100615,Corporation -Ramakrishna Hegde Nagar ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G11,FULLW,G110655,Bagalur -Indian Express/Balekundri Circle ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+G12,FULLW,G120740,Trinity Circle -K R Puram ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+C1,FULLW,C10000,Banashankari -Hebbal ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+FDR1,FULLW,FDR10000,Uttarahalli--Uttarahalli,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+FDR2,FULLW,FDR20000,Uttarahalli-Jayanagar-Uttarahalli,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+FDR4,FULLW,FDR40000,Chikkalasandra-Chikkalasandra,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+FDR6,FULLW,FDR60000,Chikkalasandra- Chikkalasandra,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,10500,Jayanagar 4th Block -Yeshwanthpur ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,10650,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,10815,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,10940,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11005,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11030,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11055,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11120,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11145,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11210,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11235,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11300,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11325,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11350,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11415,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11440,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11505,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11530,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11555,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11620,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11645,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11710,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11735,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11800,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,11825,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,12020,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,12115,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+1,FULLW,12200,Jayanagar 4th Block -Yeshwanthpur,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+100,FULLW,1000000,Shivajinagar -Sadashivanagar ,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+100,FULLW,1000600,Shivajinagar -Sadashivanagar,0,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20
+100,FULLW,10006001,Shivajinagar -Sadashivanagar,1,,,1,60,"1,2,3,4,5,6","08:30:00-10:00,17:45:00-20:00:00",20

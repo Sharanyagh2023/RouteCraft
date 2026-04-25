@@ -29,6 +29,8 @@ interface NavigationScreenProps {
   route: RouteOption;
   currentSegmentIndex: number;
   userCoords: { lat: number; lng: number } | null;
+  sourceCoords: { lat: number; lng: number } | null;
+  destCoords: { lat: number; lng: number } | null;
   onAdvance: () => void;
   onEndTrip: () => void;
   onBackToMain: () => void;
@@ -39,6 +41,8 @@ export const NavigationScreen = ({
   route,
   currentSegmentIndex,
   userCoords,
+  sourceCoords,
+  destCoords,
   onAdvance,
   onEndTrip,
   onBackToMain,
@@ -179,11 +183,12 @@ export const NavigationScreen = ({
       {/* Top Map View */}
       <div className="flex-1 relative overflow-hidden">
         <MapComponent 
-          sourceCoords={null}
-          destCoords={null}
+          sourceCoords={sourceCoords}
+          destCoords={destCoords}
           userCoords={effectiveUserCoords}
           routePolyline={route.geometry}
           segments={route.segments}
+          pivotPoints={route.pivotPoints}
           isTracking={true}
         />
 

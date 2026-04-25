@@ -79,6 +79,36 @@ const ModeIcon = ({ mode, className }: { mode: TransportMode; className?: string
   }
 };
 
+const getModeIcon = (mode: TransportMode) => {
+  switch (mode) {
+    case "walk": return "🚶";
+    case "bus": return "🚌";
+    case "auto": return "🛺";
+    case "metro": return "🚇";
+    case "bike": return "🚲";
+    case "car": return "🚗";
+    default: return "❓";
+  }
+};
+
+const compactModes = (modes: TransportMode[]) =>
+  modes.filter((m, i) => i === 0 || m !== modes[i - 1]);
+
+const ModeSequence = ({ modes, compact }: { modes?: TransportMode[]; compact?: boolean }) => {
+  const safeModes = (modes || []).filter(Boolean);
+  const displayModes = compact ? compactModes(safeModes) : safeModes;
+  return (
+    <div className="flex items-center gap-1">
+      {displayModes.map((mode, index) => (
+        <span key={`${mode}-${index}`} className="flex items-center gap-1">
+          <span aria-label={mode} title={mode}>{getModeIcon(mode)}</span>
+          {index < displayModes.length - 1 && <span className="opacity-60">→</span>}
+        </span>
+      ))}
+    </div>
+  );
+};
+
 interface LocationSuggestion {
   display_name: string;
   lat: string;
@@ -527,6 +557,8 @@ export default function App() {
   const [additionalOptions, setAdditionalOptions] = useState<RouteOption[]>([]);
   const lastRerouteAtRef = useRef(0);
   const lastRerouteCoordsRef = useRef<{ lat: number; lng: number } | null>(null);
+  const previousDistanceToDestRef = useRef<number | null>(null);
+  const wrongDirectionStreakRef = useRef(0);
 
   const distanceMeters = (a: { lat: number; lng: number }, b: { lat: number; lng: number }) => {
     const toRad = (v: number) => (v * Math.PI) / 180;
@@ -1048,10 +1080,30 @@ export default function App() {
 
   const handleMoreOptions = async () => {
     setShowMoreOptions(true);
-    if (!sourceCoords) return;
+
+    const strategyOptions =
+      data
+        ? [
+            ...(data.strategies.fastest?.slice(0, 1) || []),
+            ...(data.strategies.cheapest?.slice(0, 1) || []),
+            ...(data.strategies.optimal?.slice(0, 1) || []),
+          ]
+            .filter((opt): opt is RouteOption => !!opt)
+            .filter((opt, idx, arr) => idx === arr.findIndex((o) => o.id === opt.id))
+        : [];
+
+    // Show dataset-backed options immediately so the section never appears empty.
+    if (strategyOptions.length > 0) {
+      setAdditionalOptions(strategyOptions);
+    }
+
+    const effectiveSource =
+      sourceCoords ||
+      (userCoords ? { lat: userCoords.lat.toString(), lng: userCoords.lng.toString() } : null);
+    if (!effectiveSource) return;
 
     try {
-      const res = await fetch(`/api/nearby-stops?lat=${sourceCoords.lat}&lon=${sourceCoords.lng}&radius=2000`);
+      const res = await fetch(`/api/nearby-stops?lat=${effectiveSource.lat}&lon=${effectiveSource.lng}&radius=2000`);
       const stops = await res.json();
 
       const extraOptions: RouteOption[] = (Array.isArray(stops) ? stops : []).slice(0, 3).map((stop: any, i: number) => {
@@ -1091,14 +1143,15 @@ export default function App() {
         ]
       };
       });
-      
-      if (extraOptions.length > 0) {
-        setAdditionalOptions(extraOptions);
-      } else {
-        setAdditionalOptions([]);
-      }
+
+      const merged = [...strategyOptions, ...extraOptions].slice(0, 4);
+      setAdditionalOptions(merged);
     } catch (err) {
       console.error("Failed to fetch more options", err);
+      // Preserve visible strategy values even if nearby-stops API fails.
+      if (strategyOptions.length === 0) {
+        setAdditionalOptions([]);
+      }
     }
   };
 
@@ -1112,8 +1165,25 @@ export default function App() {
     const lastCoords = lastRerouteCoordsRef.current;
     const movedEnough = !lastCoords || distanceMeters(lastCoords, userCoords) >= minMovementMeters;
     const intervalPassed = now - lastRerouteAtRef.current >= minRerouteIntervalMs;
+    const destPoint =
+      destCoords && !Number.isNaN(parseFloat(destCoords.lat)) && !Number.isNaN(parseFloat(destCoords.lng))
+        ? { lat: parseFloat(destCoords.lat), lng: parseFloat(destCoords.lng) }
+        : null;
 
-    if (!movedEnough || !intervalPassed) return;
+    let movingAway = false;
+    if (destPoint) {
+      const currentDistanceToDest = distanceMeters(userCoords, destPoint);
+      const prevDistanceToDest = previousDistanceToDestRef.current;
+      if (prevDistanceToDest !== null && currentDistanceToDest > prevDistanceToDest + 40) {
+        wrongDirectionStreakRef.current += 1;
+      } else if (prevDistanceToDest !== null && currentDistanceToDest < prevDistanceToDest - 20) {
+        wrongDirectionStreakRef.current = 0;
+      }
+      previousDistanceToDestRef.current = currentDistanceToDest;
+      movingAway = wrongDirectionStreakRef.current >= 2;
+    }
+
+    if (!movedEnough || (!intervalPassed && !movingAway)) return;
 
     let cancelled = false;
 
@@ -1154,8 +1224,9 @@ export default function App() {
           setCurrentSegmentIndex(0);
         }
 
-        lastRerouteAtRef.current = now;
+        lastRerouteAtRef.current = Date.now();
         lastRerouteCoordsRef.current = userCoords;
+        wrongDirectionStreakRef.current = 0;
       } catch (err) {
         console.error("Live reroute failed", err);
       }
@@ -1377,27 +1448,94 @@ export default function App() {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
-  const handleGetCurrentLocation = () => {
-    if (!navigator.geolocation) return;
-    
-    navigator.geolocation.getCurrentPosition(async (pos) => {
-      const { latitude, longitude } = pos.coords;
-      try {
-        const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&accept-language=en`);
-        const result = await res.json();
-        const address = result.display_name.split(',')[0] + ", " + result.display_name.split(',')[1];
-        if (searchMode === "source") {
-          setSource(address);
-          setSourceCoords({ lat: latitude.toString(), lng: longitude.toString() });
-        } else if (searchMode === "destination") {
-          setDestination(address);
-          setDestCoords({ lat: latitude.toString(), lng: longitude.toString() });
+  const [isLocating, setIsLocating] = useState(false);
+
+  const requestCurrentPosition = (): Promise<{ latitude: number; longitude: number }> => {
+    return new Promise((resolve, reject) => {
+      navigator.geolocation.getCurrentPosition(
+        (pos) => resolve({ latitude: pos.coords.latitude, longitude: pos.coords.longitude }),
+        (err) => reject(err),
+        { enableHighAccuracy: true, timeout: 35000, maximumAge: 10000 }
+      );
+    });
+  };
+
+  const requestCurrentPositionFallback = (): Promise<{ latitude: number; longitude: number }> => {
+    return new Promise((resolve, reject) => {
+      navigator.geolocation.getCurrentPosition(
+        (pos) => resolve({ latitude: pos.coords.latitude, longitude: pos.coords.longitude }),
+        (err) => reject(err),
+        // Relaxed options for laptops/desktops where GPS chip is unavailable.
+        { enableHighAccuracy: false, timeout: 45000, maximumAge: 300000 }
+      );
+    });
+  };
+
+  const handleGetCurrentLocation = async () => {
+    if (!navigator.geolocation) {
+      showToast("Geolocation is not supported on this device");
+      return;
+    }
+
+    setIsLocating(true);
+    const currentMode = searchMode; // capture mode at click time
+
+    try {
+      let coords: { latitude: number; longitude: number } | null = userCoords
+        ? { latitude: userCoords.lat, longitude: userCoords.lng }
+        : null;
+
+      if (!coords) {
+        try {
+          coords = await requestCurrentPosition();
+        } catch {
+          coords = await requestCurrentPositionFallback();
         }
-        setSearchMode(null);
+      }
+
+      if (!coords) {
+        throw new Error("Unable to retrieve location");
+      }
+
+      const { latitude, longitude } = coords;
+      let address = "Current Location";
+      try {
+        const controller = new AbortController();
+        const timeout = window.setTimeout(() => controller.abort(), 6000);
+        const res = await fetch(
+          `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&accept-language=en`,
+          { signal: controller.signal }
+        );
+        window.clearTimeout(timeout);
+        const result = await res.json();
+        if (result?.display_name) {
+          const parts = result.display_name.split(",");
+          address = parts.slice(0, 2).join(", ");
+        }
       } catch (err) {
         console.error("Reverse geocoding failed", err);
+        // fallback: keep generic "Current Location" label
       }
-    });
+
+      if (currentMode === "source") {
+        setSource(address);
+        setSourceCoords({ lat: latitude.toString(), lng: longitude.toString() });
+      } else if (currentMode === "destination") {
+        setDestination(address);
+        setDestCoords({ lat: latitude.toString(), lng: longitude.toString() });
+      }
+      setSearchMode(null);
+    } catch (err: any) {
+      console.error("Geolocation error:", err);
+      const code = err?.code;
+      let msg = "Unable to retrieve location.";
+      if (code === 1) msg = "Location permission denied. Please enable it in browser settings.";
+      else if (code === 2) msg = "Location unavailable. Try again later.";
+      else if (code === 3) msg = "Location request timed out.";
+      showToast(msg);
+    } finally {
+      setIsLocating(false);
+    }
   };
 
   const handleSelectSuggestion = (suggestion: LocationSuggestion) => {
@@ -1445,6 +1583,8 @@ export default function App() {
             route={activeRoute}
             currentSegmentIndex={currentSegmentIndex}
             userCoords={userCoords}
+            sourceCoords={sourceCoords ? { lat: parseFloat(sourceCoords.lat), lng: parseFloat(sourceCoords.lng) } : null}
+            destCoords={destCoords ? { lat: parseFloat(destCoords.lat), lng: parseFloat(destCoords.lng) } : null}
             onAdvance={handleNextStep}
             onEndTrip={handleEndTrip}
             onBackToMain={() => setShowNavigationScreen(false)}
@@ -1495,13 +1635,22 @@ export default function App() {
                   variant="ghost" 
                   className="w-full justify-start h-14 rounded-xl hover:bg-primary/5 text-primary gap-3"
                   onClick={handleGetCurrentLocation}
+                  disabled={isLocating}
                 >
                   <div className="p-2 bg-primary/10 rounded-full">
-                    <Locate className="w-4 h-4" />
+                    {isLocating ? (
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                    ) : (
+                      <Locate className="w-4 h-4" />
+                    )}
                   </div>
                   <div className="text-left">
-                    <div className="font-bold text-sm">Your Current Location</div>
-                    <div className="text-[10px] opacity-70 uppercase tracking-widest">Using GPS</div>
+                    <div className="font-bold text-sm">
+                      {isLocating ? "Getting location..." : "Your Current Location"}
+                    </div>
+                    <div className="text-[10px] opacity-70 uppercase tracking-widest">
+                      {isLocating ? "Please wait" : "Using GPS"}
+                    </div>
                   </div>
                 </Button>
 
@@ -1983,15 +2132,7 @@ export default function App() {
                               <div className="flex items-center gap-2">
                                 {route.type === "split" ? (
                                   <div className="flex items-center gap-2">
-                                    {route.modes?.map((mode, i) => (
-                                      <div key={i} className="flex items-center gap-2">
-                                        <div className="flex items-center gap-1.5">
-                                          <ModeIcon mode={mode} className="w-3.5 h-3.5 text-muted-foreground" />
-                                          <span className="text-[10px] font-bold uppercase text-muted-foreground">{mode}</span>
-                                        </div>
-                                        {i < (route.modes?.length || 0) - 1 && <div className="w-4 h-px bg-white/10" />}
-                                      </div>
-                                    ))}
+                                    <ModeSequence modes={route.modes} compact />
                                   </div>
                                 ) : (
                                   <div className="flex items-center gap-1.5">
@@ -2099,13 +2240,7 @@ export default function App() {
                             <CardContent className="p-3">
                               <div className="flex justify-between items-center">
                                 <div className="flex items-center gap-3">
-                                  <div className="flex -space-x-1">
-                                    {option.modes?.map((m, idx) => (
-                                      <div key={idx} className="w-6 h-6 rounded-full bg-secondary border border-background flex items-center justify-center">
-                                        <ModeIcon mode={m} className="w-3 h-3 text-muted-foreground" />
-                                      </div>
-                                    ))}
-                                  </div>
+                                  <ModeSequence modes={option.modes} compact />
                                   <div>
                                     <div className="text-xs font-bold">{option.duration} mins</div>
                                     <div className="text-[9px] text-muted-foreground">Via {option.segments.map(s => s.provider).join(' → ')}</div>
@@ -2320,20 +2455,9 @@ export default function App() {
                               
                               <div className="flex items-center gap-2 text-xs font-medium text-foreground py-1">
                                 {opt.segments.length > 0 ? (
-                                  opt.segments.map((s, si) => (
-                                    <React.Fragment key={si}>
-                                      <div className="flex items-center gap-1">
-                                        <ModeIcon mode={s.mode} className="w-3 h-3 text-muted-foreground" />
-                                        <span className="capitalize">{s.mode}</span>
-                                      </div>
-                                      {si < opt.segments.length - 1 && <ChevronRight className="w-3 h-3 opacity-30" />}
-                                    </React.Fragment>
-                                  ))
+                                  <ModeSequence modes={opt.segments.map(s => s.mode)} compact />
                                 ) : (
-                                  <div className="flex items-center gap-1.5">
-                                    <Car className="w-3.5 h-3.5 text-primary" />
-                                    <span className="capitalize">{opt.mode} (Direct)</span>
-                                  </div>
+                                  <ModeSequence modes={[opt.mode as TransportMode]} />
                                 )}
                               </div>
 

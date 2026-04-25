@@ -325,6 +325,8 @@ export const MapComponent = ({ sourceCoords, destCoords, userCoords, routePolyli
   }, []);
 
   const bounds: L.LatLngBoundsExpression | undefined = useMemo(() => {
+    if (isTracking) return undefined;
+
     const pathPoints = (renderedPath || []).filter(([lat, lng]) => isFinite(lat) && isFinite(lng));
     if (pathPoints.length >= 2) return pathPoints;
 
@@ -343,7 +345,7 @@ export const MapComponent = ({ sourceCoords, destCoords, userCoords, routePolyli
     }
 
     return undefined;
-  }, [renderedPath, sourceCoords, effectiveDestCoords]);
+  }, [renderedPath, sourceCoords, effectiveDestCoords, isTracking]);
 
   return (
     <div className="w-full h-full relative z-0 rounded-2xl overflow-hidden border border-white/10 shadow-inner bg-[#f8fafc]">

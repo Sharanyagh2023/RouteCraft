@@ -167,9 +167,114 @@ export default function LandingPage() {
               <p className="text-xs font-bold text-primary">Journey Overview</p>
             </div>
 
-            {/* Smaller map */}
-            <div className="h-36 bg-background/50 rounded-xl mb-4 flex items-center justify-center text-muted-foreground text-xs">
-              Animated Route Preview
+            {/* Journey preview animation */}
+            <div className="h-36 rounded-xl mb-4 flex items-center justify-center text-xs relative overflow-hidden bg-gradient-to-br from-primary/30 via-primary/10 to-background border border-primary/20">
+              {/* Animated background blobs */}
+              <motion.div
+                animate={{ x: [0, 20, 0], y: [0, -10, 0], opacity: [0.3, 0.6, 0.3] }}
+                transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
+                className="absolute top-2 left-4 w-16 h-16 bg-emerald-400/30 rounded-full blur-xl"
+              />
+              <motion.div
+                animate={{ x: [0, -15, 0], y: [0, 15, 0], opacity: [0.2, 0.5, 0.2] }}
+                transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
+                className="absolute bottom-2 right-6 w-14 h-14 bg-teal-400/30 rounded-full blur-xl"
+              />
+
+              <svg
+                className="w-full h-full relative z-10"
+                viewBox="0 0 200 100"
+                preserveAspectRatio="none"
+              >
+                {/* Glow filter */}
+                <defs>
+                  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                    <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                    <feMerge>
+                      <feMergeNode in="coloredBlur"/>
+                      <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+                  </filter>
+                  <linearGradient id="routeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="#34d399" />
+                    <stop offset="50%" stopColor="#2dd4bf" />
+                    <stop offset="100%" stopColor="#22d3ee" />
+                  </linearGradient>
+                </defs>
+
+                {/* Background route segments */}
+                <path
+                  d="M 20,50 C 40,20 80,20 100,50 S 160,80 180,50"
+                  fill="transparent"
+                  strokeWidth="4"
+                  stroke="rgba(79,209,197,0.15)"
+                  strokeLinecap="round"
+                />
+
+                {/* Animated route path */}
+                <motion.path
+                  d="M 20,50 C 40,20 80,20 100,50 S 160,80 180,50"
+                  fill="transparent"
+                  strokeWidth="3"
+                  stroke="url(#routeGrad)"
+                  strokeLinecap="round"
+                  filter="url(#glow)"
+                  strokeDasharray="300"
+                  strokeDashoffset="300"
+                  initial={{ strokeDashoffset: 300 }}
+                  animate={{ strokeDashoffset: 0 }}
+                  transition={{ duration: 2.5, repeat: Infinity, repeatType: 'loop', ease: 'linear' }}
+                />
+
+                {/* Start point */}
+                <motion.circle
+                  cx="20"
+                  cy="50"
+                  r="4"
+                  fill="#34d399"
+                  filter="url(#glow)"
+                  initial={{ scale: 0 }}
+                  animate={{ scale: [1, 1.3, 1] }}
+                  transition={{ delay: 0.2, duration: 1.5, repeat: Infinity }}
+                />
+                <text x="20" y="65" textAnchor="middle" fill="#34d399" fontSize="8" fontWeight="bold">A</text>
+
+                {/* Mid pivot point */}
+                <motion.circle
+                  cx="100"
+                  cy="50"
+                  r="3"
+                  fill="#2dd4bf"
+                  filter="url(#glow)"
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  transition={{ delay: 1.2, duration: 0.5 }}
+                />
+
+                {/* End point */}
+                <motion.circle
+                  cx="180"
+                  cy="50"
+                  r="4"
+                  fill="#22d3ee"
+                  filter="url(#glow)"
+                  initial={{ scale: 0 }}
+                  animate={{ scale: [1, 1.3, 1] }}
+                  transition={{ delay: 2.5, duration: 1.5, repeat: Infinity }}
+                />
+                <text x="180" y="65" textAnchor="middle" fill="#22d3ee" fontSize="8" fontWeight="bold">B</text>
+
+                {/* Traveling dot */}
+                <motion.circle
+                  r="3"
+                  fill="#ffffff"
+                  filter="url(#glow)"
+                  initial={{ offsetDistance: '0%' }}
+                  animate={{ offsetDistance: '100%' }}
+                  transition={{ duration: 2.5, repeat: Infinity, ease: 'linear' }}
+                  style={{ offsetPath: "path('M 20,50 C 40,20 80,20 100,50 S 160,80 180,50')" }}
+                />
+              </svg>
             </div>
 
             {/* Info */}

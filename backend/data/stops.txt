@@ -1,0 +1,717 @@
+stop_name,stop_id,stop_desc,stop_lat,stop_lon,zone_id,searchlink,validation_url,moderated?(y)
+A Narayanapura,1,,12.99485655,77.67754555,,A Narayanapura,A Narayanapura,y
+Abbigere,2,,13.07768078,77.53004551,,Abbigere,Abbigere,
+Abhiman Studio,3,,13.06603857,77.642591,,Abhiman Studio,Abhiman Studio,
+Adakamaranahalli,4,,13.07074,77.44572,,Adakamaranahalli,Adakamaranahalli,
+Adda Vishwanathapura,5,,13.27236045,77.64896393,,Adda Vishwanathapura,Adda Vishwanathapura,
+ADEGTRE,6,,12.98025,77.65521,,ADEGTRE,ADEGTRE,
+Adigara Kallahalli,7,,13.089659,77.780322,,Adigara Kallahalli,Adigara Kallahalli,
+Adigondanahalli,8,,12.81207,77.75039,,Adigondanahalli,Adigondanahalli,
+Adosonnahatti,9,,12.77001,77.69497,,Adosonnahatti,Adosonnahatti,
+Adugodi,10,,12.94374134,77.60809779,,Adugodi,Adugodi,
+Adugodi Police Quarters,11,,12.93916147,77.61021137,,Adugodi Police Quarters,Adugodi Police Quarters,
+Adur,12,,13.0556,77.70566,,Adur,Adur,
+AECS Dental College,13,,12.86586172,77.6009202,,AECS Dental College,AECS Dental College,
+AECS Layout (Hosur Road),14,,12.88401871,77.64239788,,AECS Layout (Hosur Road),AECS Layout (Hosur Road),
+AECS Layout (Kundalahalli),15,,12.96487246,77.71273613,,AECS Layout (Kundalahalli),AECS Layout (Kundalahalli),
+AECS Layout Cross (Hosur Road),16,,12.88410238,77.64252663,,AECS Layout Cross (Hosur Road),AECS Layout Cross (Hosur Road)
+Agalahalli,18,,12.89222,77.37568,,Agalahalli,Agalahalli
+Agara (Kanakapura Road),19,,12.811187,77.492393,,Agara (Kanakapura Road),Agara (Kanakapura Road)
+Agara (Sarjapur Road),20,,12.92455343,77.65123844,,Agara (Sarjapur Road),Agara (Sarjapur Road)
+Agara BMTC Depot,21,,12.92454297,77.65058398,,Agara BMTC Depot,Agara BMTC Depot
+Agara Gate (Kanakapura Road),22,,12.84877,77.52181,,Agara Gate (Kanakapura Road),Agara Gate (Kanakapura Road)
+Agrahara Layout,23,,12.97967678,77.54017353,,Agrahara Layout,Agrahara Layout
+Ajanta Talkies,24,,12.98268772,77.6147604,,Ajanta Talkies,Ajanta Talkies
+Akshayanagar,26,,12.87284855,77.61686325,,Akshayanagar,Akshayanagar
+Alambadi,27,,12.850219,77.782077,,Alambadi,Alambadi
+Alappanahalli,28,,13.101982,77.777871,,Alappanahalli,Alappanahalli
+Allalasandra,29,,13.08344943,77.58467674,,Allalasandra,Allalasandra
+Allammanapalya,30,,12.919552,77.365382,,Allammanapalya,Allammanapalya
+Alli Bommasandra,31,,12.83254,77.73453,,Alli Bommasandra,Alli Bommasandra
+Alur,32,,13.075868,77.458581,,Alur,Alur
+Amarajyothinagar,33,,12.97286021,77.52965927,,Amarajyothinagar,Amarajyothinagar
+Ambedkar Engineering College,34,,12.96595982,77.50528336,,Ambedkar Engineering College,Ambedkar Engineering College
+Ambedkar Medical College,35,,13.02088583,77.61527538,,Ambedkar Medical College,Ambedkar Medical College
+Ambedkar Vidya Mandira,36,,13.26841,77.55273,,Ambedkar Vidya Mandira,Ambedkar Vidya Mandira
+Ambedkarnagar (Sarjapur Road),37,,12.89895,77.71385,,Ambedkarnagar (Sarjapur Road),Ambedkarnagar (Sarjapur Road)
+AMC College (Bannerghatta),38,,12.82812108,77.58965492,,AMC College (Bannerghatta),AMC College (Bannerghatta)
+Amrita College,39,,12.94812245,77.70447493,,Amrita College,Amrita College
+Amruthanagar,40,,12.88493908,77.56669521,,Amruthanagar,Amruthanagar
+Anagalipura,41,,12.89634,77.71992,,Anagalipura,Anagalipura
+Anand Rao Circle,42,,12.979904,77.572038,,Anand Rao Circle,Anand Rao Circle
+Anandanagar,43,,13.03328275,77.59085655,,Anandanagar,Anandanagar
+Ananthanagar,44,,12.83448132,77.69700766,,Ananthanagar,Ananthanagar
+Ananthapura,45,,13.11461035,77.56813288,,Ananthapura,Ananthapura
+Anchepalya (Mysore Road),46,,12.87843,77.44529,,Anchepalya (Mysore Road),Anchepalya (Mysore Road)
+Anchepalya (Tumkur Road),47,,13.0536851,77.48112202,,Anchepalya (Tumkur Road),Anchepalya (Tumkur Road)
+Anchipura,48,,12.87281,77.55822,,Anchipura,Anchipura
+Andarahalli,49,,12.9972,77.65368,,Andarahalli,Andarahalli
+Andhrahalli,50,,13.00752657,77.50077724,,Andhrahalli,Andhrahalli
+Anekal,51,,12.70827177,77.7000761,,Anekal,Anekal
+Anjananagar,52,,12.97932132,77.4762404,,Anjananagar,Anjananagar
+Anjanapura,53,,12.68472216,77.27263927,,Anjanapura,Anjanapura
+Annapurneshwarinagar,54,,12.96215406,77.49854565,,Annapurneshwarinagar,Annapurneshwarinagar
+Annasandrapalya,55,,12.96457971,77.67485261,,Annasandrapalya,Annasandrapalya
+Anugondanahalli,58,,12.95927,77.81511,,Anugondanahalli,Anugondanahalli
+Anugondanahalli Cross,59,,12.97602,77.82036,,Anugondanahalli Cross,Anugondanahalli Cross
+Arabic College,60,,13.03084,77.62137,,Arabic College,Arabic College
+Aralimaradapalya,61,,12.949903,77.357555,,Aralimaradapalya,Aralimaradapalya
+Arasanahalli,62,,12.90928571,77.53669739,,Arasanahalli,Arasanahalli
+Arehalli (Uttarahalli),63,,12.911848,77.535276,,Arehalli (Uttarahalli),Arehalli (Uttarahalli)
+Arehalli (Whitefield),64,,12.93629,77.82921,,Arehalli (Whitefield),Arehalli (Whitefield)
+Arehalli AGS Layout,65,,12.90855,77.53841,,Arehalli AGS Layout,Arehalli AGS Layout
+Arehalli Gate (Uttarahalli),66,,12.90836543,77.53854275,,Arehalli Gate (Uttarahalli),Arehalli Gate (Uttarahalli)
+Arekere,67,,12.88963498,77.60357022,,Arekere,Arekere
+Arekere Gate,68,,12.89039845,77.59830236,,Arekere Gate,Arekere Gate
+Arisinakunte,70,,13.07901845,77.42507458,,Arisinakunte,Arisinakunte
+Art of Living Ashram,71,,12.82021241,77.5121069,,Art of Living Ashram,Art of Living Ashram
+Ashoka Pillar,72,,12.94011823,77.57743478,,Ashoka Pillar,Ashoka Pillar
+Ashwathnagar (Ganganagar),73,,13.02358269,77.57270336,,Ashwathnagar (Ganganagar),Ashwathnagar (Ganganagar)
+Ashwathnagar (Marathahalli),74,,12.95947745,77.70080566,,Ashwathnagar (Marathahalli),Ashwathnagar (Marathahalli)
+Ashwathnagar Telecom Layout (Nagavara),75,,13.04449,77.62643,,Ashwathnagar Telecom Layout (Nagavara),Ashwathnagar Telecom Layout (Nagavara)
+Attibele,76,,12.7717925,77.7862072,,Attibele,Attibele
+Attibele Border,77,,12.96035572,77.52987385,,Attibele Border,Attibele Border
+Attiguppe,78,,12.96038,77.53314,,Attiguppe,Attiguppe
+Attivata,79,,13.10794379,77.56545067,,Attivata,Attivata
+Attur,80,,12.92394692,77.58718729,,Attur,Attur
+Aurobindo Circle (J P Nagar),81,,12.9233195,77.58624315,,Aurobindo Circle (J P Nagar),Aurobindo Circle (J P Nagar)
+Austin Town,82,,12.96159992,77.61351585,,Austin Town,Austin Town
+Avalahalli BDA Layout (Kothanur),83,,12.87385263,77.56377697,,Avalahalli BDA Layout (Kothanur),Avalahalli BDA Layout (Kothanur)
+Avalahalli BDA Park,84,,12.943253,77.542553,,Avalahalli BDA Park,Avalahalli BDA Park
+Avaragere,85,,12.839769,77.395458,,Avaragere,Avaragere
+Ayyappa Temple,88,,12.92476257,77.61812925,,Ayyappa Temple,Ayyappa Temple
+Ayyappanagar (Jalahalli),89,,13.04569995,77.52176285,,Ayyappanagar (Jalahalli),Ayyappanagar (Jalahalli)
+Ayyappanagar (K R Puram),90,,13.00439049,77.71010756,,Ayyappanagar (K R Puram),Ayyappanagar (K R Puram)
+B Channasandra,91,,13.01183339,77.66304016,,B Channasandra,B Channasandra
+B Nagasandra,92,,13.03692018,77.49090672,,B Nagasandra,B Nagasandra
+Babusabpalya,93,,13.02504608,77.64613152,,Babusabpalya,Babusabpalya
+Bagalagunte,94,,13.05696688,77.50734329,,Bagalagunte,Bagalagunte
+Bagalur(Yelahanka),95,,13.12169,77.626,,Bagalur(Yelahanka),Bagalur(Yelahanka)
+Bagalur Cross(Yelahnka),96,,13.12186,77.61086,,Bagalur Cross(Yelahnka),Bagalur Cross(Yelahnka)
+Bagmane Tech Park,97,,12.97843266,77.66606569,,Bagmane Tech Park,Bagmane Tech Park
+Bagmane Tech Park Junction,98,,12.97510803,77.66620517,,Bagmane Tech Park Junction,Bagmane Tech Park Junction
+Bagur,99,,12.930294,77.797059,,Bagur,Bagur
+Balagere,100,,12.9376,77.72836,,Balagere,Balagere
+Baldwin Boys High School,102,,12.96112943,77.60604858,,Baldwin Boys High School,Baldwin Boys High School
+Bamboo Bazaar,105,,12.99222,77.6044,,Bamboo Bazaar,Bamboo Bazaar
+Banasawadi,107,,13.01442581,77.65087366,,Banasawadi,Banasawadi
+Banashankari,108,,12.91589486,77.57347584,,Banashankari,Banashankari
+Banashankari 2nd Stage,109,,12.928715,77.566674,,Banashankari 2nd Stage,Banashankari 2nd Stage
+Banashankari 3rd Stage 3rd Phase,112,,12.921354,77.561288,,Banashankari 3rd Stage 3rd Phase,Banashankari 3rd Stage 3rd Phase
+Banashankari BDA Complex,113,,12.92546,77.5649,,Banashankari BDA Complex,Banashankari BDA Complex
+Bandakodigenahalli,114,,13.1764,77.6907,,Bandakodigenahalli,Bandakodigenahalli
+Bandappa Garden,115,,13.02459,77.5535,,Bandappa Garden,Bandappa Garden
+Bande Bommasandra,116,,12.81653,77.69604,,Bande Bommasandra,Bande Bommasandra
+Bandemutt,118,,12.91688,77.47874,,Bandemutt,Bandemutt
+Bandenallasandra,119,,12.79619,77.6475,,Bandenallasandra,Bandenallasandra
+Bandireddy Circle,120,,12.97584,77.564576,,Bandireddy Circle,Bandireddy Circle
+Bangalore Childrens Hospital,121,,12.90918,77.51363,,Bangalore Childrens Hospital,Bangalore Childrens Hospital
+Bangalore Club,122,,12.96822,77.60056,,Bangalore Club,Bangalore Club
+Bangalore Dairy,123,/Christ College,12.93647,77.60693,,Bangalore Dairy,Bangalore Dairy
+Bangalore Golf Course,124,,12.99032,77.58579,,Bangalore Golf Course,Bangalore Golf Course
+Bangalore High School(Basavanagudi),125,,12.954035,77.567741,,Bangalore High School(Basavanagudi),Bangalore High School(Basavanagudi)
+Bengaluru International Airport,126,,13.19912,77.70884,,Bengaluru International Airport,Bengaluru International Airport
+Bangalore International Airport Trumpet Interchange,127,,13.19943,77.65798,,Bangalore International Airport Trumpet Interchange,Bangalore International Airport Trumpet Interchange
+Bangalore International Exhibition Centre,128,,13.05716,77.4734,,Bangalore International Exhibition Centre,Bangalore International Exhibition Centre
+Bangalore Turf Club (Bellary Road),129,,13.18877,77.64411,,Bangalore Turf Club (Bellary Road),Bangalore Turf Club (Bellary Road)
+Bangalore University Gate,131,,12.93583,77.51302,,Bangalore University Gate,Bangalore University Gate
+Bangalore University Guest House,132,,12.975134,77.582346,,Bangalore University Guest House,Bangalore University Guest House
+Bangalore University Library,133,,12.944792,77.504071,,Bangalore University Library,Bangalore University Library
+Bangarappanagar,134,,12.925427,77.526795,,Bangarappanagar,Bangarappanagar
+Bannerghatta Circle,136,,12.813643,77.58116,,Bannerghatta Circle,Bannerghatta Circle
+Bannerghatta National Park,137,,12.80214,77.57694,,Bannerghatta National Park,Bannerghatta National Park
+Bannikuppe,139,,12.663798,77.288529,,Bannikuppe,Bannikuppe
+Bapuji Layout Saraswathinagar,140,,12.972019,77.529394,,Bapuji Layout Saraswathinagar,Bapuji Layout Saraswathinagar
+Bapujinagar,141,,12.95544,77.54138,,Bapujinagar,Bapujinagar
+Basavanagar,143,,12.96684,77.68248,,Basavanagar,Basavanagar
+Basavanagudi Police Station,145,,12.94266,77.57414,,Basavanagudi Police Station,Basavanagudi Police Station
+Basavanapura Gate,147,,13.00935,77.69703,,Basavanapura Gate,Basavanapura Gate
+Basaveshwara College,148,,12.99044,77.55275,,Basaveshwara College,Basaveshwara College
+Basaveshwaranagar,149,,12.98846,77.5338,,Basaveshwaranagar,Basaveshwaranagar
+Basaveshwaranagar 3rd Stage,150,,12.98793,77.54436,,Basaveshwaranagar 3rd Stage,Basaveshwaranagar 3rd Stage
+Bashyam Circle (Rajajinagar),151,,12.98497,77.55419,,Bashyam Circle (Rajajinagar),Bashyam Circle (Rajajinagar)
+Bashyam Circle (Sadashivanagar),152,,13.00649,77.5789,,Bashyam Circle (Sadashivanagar),Bashyam Circle (Sadashivanagar)
+BCC Layout,153,,12.9513,77.52953,,BCC Layout,BCC Layout
+Begur (Hosur Road),157,,12.87354,77.62422,,Begur (Hosur Road),Begur (Hosur Road)
+Begur Devarachikkanahalli Road Junction,159,,12.90395,77.62738,,Begur Devarachikkanahalli Road Junction,Begur Devarachikkanahalli Road Junction
+Begur NICE Road Junction,161,,12.86661,77.62866,,Begur NICE Road Junction,Begur NICE Road Junction
+Begur Vishwapriya Layout,162,,12.88172,77.62786,,Begur Vishwapriya Layout,Begur Vishwapriya Layout
+Begur Vishwapriya Layout Cross,163,,12.88226,77.62512,,Begur Vishwapriya Layout Cross,Begur Vishwapriya Layout Cross
+BEL Circle,164,,13.04507,77.55672,,BEL Circle,BEL Circle
+BEL Hospital,166,,13.0498,77.55678,,BEL Hospital,BEL Hospital
+BEL Market,167,,13.0521,77.5518,,BEL Market,BEL Market
+Bellandur,170,,12.924208,77.672186,,Bellandur,Bellandur
+Bellandur Gate,171,,12.91905,77.66956,,Bellandur Gate,Bellandur Gate
+Belthur,172,,12.990602,77.72287,,Belthur,Belthur
+BEML Complex (Rajarajeshwarinagar),176,,12.91951,77.52035,,BEML Complex (Rajarajeshwarinagar),BEML Complex (Rajarajeshwarinagar)
+BEML Gate,177,,12.97128,77.65922,,BEML Gate,BEML Gate
+Benniganahalli,179,,12.99419,77.66357,,Benniganahalli,Benniganahalli
+Bettadasanapura,180,,12.84153,77.63181,,Bettadasanapura,Bettadasanapura
+Bettadasanapura Cross,181,,12.83616,77.6251,,Bettadasanapura Cross,Bettadasanapura Cross
+Bettahalasur,182,,13.160629,77.610185,,Bettahalasur,Bettahalasur
+Bettahalasur Cross,183,,13.15191,77.62012,,Bettahalasur Cross,Bettahalasur Cross
+Bettahalli,184,,13.13799,77.17835,,Bettahalli,Bettahalli
+BGS Health City,190,,12.90228,77.49739,,BGS Health City,BGS Health City
+Bhagavan Buddha College,191,,12.90523,77.48831,,Bhagavan Buddha College,Bhagavan Buddha College
+Bharath Housing Layout,192,,12.90435,77.53093,,Bharath Housing Layout,Bharath Housing Layout
+Bharathnagar,193,,13.001469,77.630521,,Bharathnagar,Bharathnagar
+Bhashyam Nagar,194,,12.99364,77.56414,,Bhashyam Nagar,Bhashyam Nagar
+Bhattarahalli,196,,13.01932,77.70823,,Bhattarahalli,Bhattarahalli
+BHEL Gate (Mysore Road),200,,12.95009,77.53733,,BHEL Gate (Mysore Road),BHEL Gate (Mysore Road)
+BHEL Layout (Bangalore University),201,,12.91623,77.51067,,BHEL Layout (Bangalore University),BHEL Layout (Bangalore University)
+BHEL Township (GKW Layout),203,,12.96843,77.52872,,BHEL Township (GKW Layout),BHEL Township (GKW Layout)
+Bhoopasandra,205,,13.04277,77.57687,,Bhoopasandra,Bhoopasandra
+Bhuvaneshwarinagar (Katriguppe),206,,12.922849,77.549202,,Bhuvaneshwarinagar (Katriguppe),Bhuvaneshwarinagar (Katriguppe)
+Bhuvaneshwarinagar (Sultanpalya),207,,12.98553,77.66428,,Bhuvaneshwarinagar (Sultanpalya),Bhuvaneshwarinagar (Sultanpalya)
+Bible College,209,,13.07128,77.65072,,Bible College,Bible College
+Bidadi,210,,12.79667,77.38549,,Bidadi,Bidadi
+Bidarahalli,212,,13.2921,77.6551,,Bidarahalli,Bidarahalli
+Big Banyan Tree (Ramohalli),213,,12.91,77.39523,,Big Banyan Tree (Ramohalli),Big Banyan Tree (Ramohalli)
+Bikkana Hosahalli,214,,13.14226,77.64124,,Bikkana Hosahalli,Bikkana Hosahalli
+Bilekahalli,217,,12.90019,77.60101,,Bilekahalli,Bilekahalli
+Binnamangala (Old Madras Road),222,,12.98373,77.63942,,Binnamangala (Old Madras Road),Binnamangala (Old Madras Road)
+Binnamangala (Tumkur Road),223,,13.08546,77.41168,,Binnamangala (Tumkur Road),Binnamangala (Tumkur Road)
+Binny Mill,224,,12.96981,77.56627,,Binny Mill,Binny Mill
+Binnypet,225,,12.965,77.5621,,Binnypet,Binnypet
+Bismillah Nagar,228,,12.92673,77.60382,,Bismillah Nagar,Bismillah Nagar
+Bodana Hosahalli,229,,12.6373,77.4582,,Bodana Hosahalli,Bodana Hosahalli
+Bommanahalli,231,,12.907152,77.628762,,Bommanahalli,Bommanahalli
+Bommasandra,232,,12.81887,77.68875,,Bommasandra,Bommasandra
+Bommasandra Industrial Area,233,,12.81553,77.6854,,Bommasandra Industrial Area,Bommasandra Industrial Area
+Brigade Road Junction,236,,12.97188,77.60708,,Brigade Road Junction,Brigade Road Junction
+Brindavananagar Jinkevana,237,,12.92583,77.60895,,Brindavananagar Jinkevana,Brindavananagar Jinkevana
+BTM Layout Water Tank,239,,12.91669,77.60666,,BTM Layout Water Tank,BTM Layout Water Tank
+Budigere,241,,13.05833,77.73419,,Budigere,Budigere
+Budigere Cross,242,,13.0554,77.76526,,Budigere Cross,Budigere Cross
+Byadarahalli,244,,12.98804,77.49104,,Byadarahalli,Byadarahalli
+Byatarayanapura (Bellary Road),248,,13.05768,77.59332,,Byatarayanapura (Bellary Road),Byatarayanapura (Bellary Road)
+Byatarayanapura (Mysore Road),249,,12.95126,77.54004,,Byatarayanapura (Mysore Road),Byatarayanapura (Mysore Road)
+Bylakere,251,Peacock Reserve,13.10615,77.54168,,Bylakere,Bylakere
+Bylalu (Chunchanakuppe),253,ISRO DSN Center,12.91054,77.38581,,Bylalu (Chunchanakuppe),Bylalu (Chunchanakuppe)
+Byrasandra (Jayanagar),257,,12.92846,77.59895,,Byrasandra (Jayanagar),Byrasandra (Jayanagar)
+Byraveshwara Industrial Estate,260,,13.01104,77.50666,,Byraveshwara Industrial Estate,Byraveshwara Industrial Estate
+Byrohalli,262,,12.91246,77.45035,,Byrohalli,Byrohalli
+Byrthi Bande,263,,13.10573,77.66055,,Byrthi Bande,Byrthi Bande
+Byrthi Cross,264,,13.10552,77.64828,,Byrthi Cross,Byrthi Cross
+C V Raman Nagar,265,,12.98556,77.66427,,C V Raman Nagar,C V Raman Nagar
+Cadabam's Mental Health Center,266,,12.79824,77.52769,,Cadabam's Mental Health Center,Cadabam's Mental Health Center
+Cantonment Railway Station,267,,12.99382,77.59755,,Cantonment Railway Station,Cantonment Railway Station
+Carmel Convent,268,,12.92638,77.59738,,Carmel Convent,Carmel Convent
+Carmelaram Railway Gate,270,,12.90226,77.70621,,Carmelaram Railway Gate,Carmelaram Railway Gate
+Carmelaram Railway Station,271,,12.90929,77.70557,,Carmelaram Railway Station,Carmelaram Railway Station
+Cauvery Theater,272,,13.002389,77.584004,,Cauvery Theater,Cauvery Theater
+CBI,273,,13.02688,77.58588,,CBI,CBI
+Central Jail,274,,12.8785,77.66733,,Central Jail,Central Jail
+Central Silk Board,275,,12.916747,77.621745,,Central Silk Board,Central Silk Board
+Central Talkies,276,,12.9897,77.573,,Central Talkies,Central Talkies
+Chakkalatti,277,,13.12253,77.66819,,Chakkalatti,Chakkalatti
+Chamarajpet,279,,12.96046,77.56813,,Chamarajpet,Chamarajpet
+Chamarajpet Mydana,280,,12.959389,77.562264,,Chamarajpet Mydana,Chamarajpet Mydana
+Chamarajpet Police Station,281,,12.960392,77.56514,,Chamarajpet Police Station,Chamarajpet Police Station
+Chamundeshwari Layout (Vidyaranyapura),282,,13.06556,77.55309,,Chamundeshwari Layout (Vidyaranyapura),Chamundeshwari Layout (Vidyaranyapura)
+Chandapura,284,,12.80243,77.70441,,Chandapura,Chandapura
+Chandapura Railway Overbridge,285,,12.80176,77.71145,,Chandapura Railway Overbridge,Chandapura Railway Overbridge
+Chandra Layout,286,,12.95943,77.52689,,Chandra Layout,Chandra Layout
+Chandra Layout Cross,288,,12.95888,77.52917,,Chandra Layout Cross,Chandra Layout Cross
+Chandrappa Circle,290,,12.91054,77.36959,,Chandrappa Circle,Chandrappa Circle
+Channappanahalli,292,,12.9636,77.70203,,Channappanahalli,Channappanahalli
+Channasandra (Horamavu),293,,12.98348,77.76672,,Channasandra (Horamavu),Channasandra (Horamavu)
+Channasandra (Uttarahalli Road),294,,12.90297,77.52198,,Channasandra (Uttarahalli Road),Channasandra (Uttarahalli Road)
+Channasandra (Whitefield),295,,13.03893,77.67772,,Channasandra (Whitefield),Channasandra (Whitefield)
+Chellakere,300,,13.02542,77.64581,,Chellakere,Chellakere
+Chennammanakere Achkattu,302,,12.92845,77.55695,,Chennammanakere Achkattu,Chennammanakere Achkattu
+Chikka Banasawadi,304,,13.0064,77.64416,,Chikka Banasawadi,Chikka Banasawadi
+Chikka Begur,305,,12.88463,77.6389,,Chikka Begur,Chikka Begur
+Chikka Nagamangala,306,,12.85622,77.69415,,Chikka Nagamangala,Chikka Nagamangala
+Chikka Tirupathi,308,,12.89724,77.86603,,Chikka Tirupathi,Chikka Tirupathi
+Chikkabanahalli,309,,13.02396,77.7475,,Chikkabanahalli,Chikkabanahalli
+Chikkabanavara,310,,13.07296,77.50322,,Chikkabanavara,Chikkabanavara
+Chikkabanavara Railway Gate,311,,13.07584,77.50537,,Chikkabanavara Railway Gate,Chikkabanavara Railway Gate
+Chikkabellandur,313,,12.911,77.69802,,Chikkabellandur,Chikkabellandur
+Chikkabidarakallu,314,,13.05212,77.48746,,Chikkabidarakallu,Chikkabidarakallu
+Chikkabommasandra,315,,13.092045,77.579763,,Chikkabommasandra,Chikkabommasandra
+Chikkadasarahalli,316,,13.356625,77.854115,,Chikkadasarahalli,Chikkadasarahalli
+Chikkajala,319,,13.17297,77.63334,,Chikkajala,Chikkajala
+Chikkalasandra,322,,12.91172,77.55252,,Chikkalasandra,Chikkalasandra
+Chikkalasandra Arali Mara,323,,12.914687,77.55123,,Chikkalasandra Arali Mara,Chikkalasandra Arali Mara
+Chinmaya Mission Hospital,330,,12.977811,77.64677,,Chinmaya Mission Hospital,Chinmaya Mission Hospital
+Chinnaswami Stadium,333,,12.978872,77.598372,,Chinnaswami Stadium,Chinnaswami Stadium
+Church (Jayanagar 4th Block),347,,12.928234,77.587547,,Church (Jayanagar 4th Block),Church (Jayanagar 4th Block)
+City Railway Station,348,,12.978877,77.568052,,City Railway Station,City Railway Station
+Clarence School,350,,13.00274,77.61668,,Clarence School,Clarence School
+CMRIT (AECS layout),351,,12.967627,77.714244,,,
+Coles Park,353,,12.99318,77.60995,,Coles Park,Coles Park
+Command Hospital,354,,12.962538,77.627917,,Command Hospital,Command Hospital
+Cooke Town,356,,13.00376,77.6197,,Cooke Town,Cooke Town
+Corporation,357,,12.966872,77.588392,,Corporation,Corporation
+Cottonpet Hospital,358,,12.97575,77.56454,,Cottonpet Hospital,Cottonpet Hospital
+CPRI,360,,13.01478,77.58387,,CPRI,CPRI
+CPRI Staff Quarters,361,,13.02434,77.57211,,CPRI Staff Quarters,CPRI Staff Quarters
+CSI Hospital,363,,12.99043,77.60116,,CSI Hospital,CSI Hospital
+Dalmiya Circle (J P Nagar 3rd Phase),366,,12.90713,77.60036,,Dalmiya Circle (J P Nagar 3rd Phase),Dalmiya Circle (J P Nagar 3rd Phase)
+Dasanapura,368,,13.07011,77.44494,,Dasanapura,Dasanapura
+Dasarahalli (Tumkur Road),371,,13.04196,77.51584,,Dasarahalli (Tumkur Road),Dasarahalli (Tumkur Road)
+Deepak Nursing Home,373,,12.92591,77.5773,,Deepak Nursing Home,Deepak Nursing Home
+Deepanjalinagar,374,,12.95126,77.53734,,Deepanjalinagar,Deepanjalinagar
+Devaiah Park,378,,12.996409,77.56419,,Devaiah Park,Devaiah Park
+Devarabisanahalli,382,,12.929672,77.684627,,Devarabisanahalli,Devarabisanahalli
+Devayyanapalya,390,,13.07356,77.43872,,Devayyanapalya,Devayyanapalya
+Devegowda Petrol Bunk,391,,12.922041,77.559949,,Devegowda Petrol Bunk,Devegowda Petrol Bunk
+Diamond District,392,,12.960272,77.643632,,Diamond District,Diamond District
+Doddakallasandra,412,,12.88575,77.55657,,Doddakallasandra,Doddakallasandra
+Doddanekkundi,416,,12.97969,77.69462,,Doddanekkundi,Doddanekkundi
+Domlur,422,,12.961616,77.638707,,Domlur,Domlur
+Dommasandra,425,,12.8798,77.7609,,Dommasandra,Dommasandra
+Dommasandra Circle,426,,12.8834,77.752,,Dommasandra Circle,Dommasandra Circle
+Double Road,429,,12.95867,77.59336,,Double Road,Double Road
+Duravani Nagar,437,,13.00247,77.68014,,Duravani Nagar,Duravani Nagar
+Electric B Station (M G Road),444,,12.973284,77.616104,,Electric B Station (M G Road),Electric B Station (M G Road)
+Electronic City,445,,12.84739,77.67163,,Electronic City,Electronic City
+Electronic City Infosys Gate,446,,12.845533,77.662756,,Electronic City Infosys Gate,Electronic City Infosys Gate
+Electronic City State Bank,448,,12.845292,77.665095,,Electronic City State Bank,Electronic City State Bank
+Electronic City Wipro Gate,449,,12.83955,77.654178,,Electronic City Wipro Gate,Electronic City Wipro Gate
+Forum/Madiwala Checkpost,456,,12.93261,77.61334,,Forum/Madiwala Checkpost,Forum/Madiwala Checkpost
+Fraser Town Post Office,458,,13.000627,77.616252,,Fraser Town Post Office,Fraser Town Post Office
+Gajendranagar Cross,463,,12.95193,77.60545,,Gajendranagar Cross,Gajendranagar Cross
+Gandhi Bazaar,468,,12.94813,77.5684,,Gandhi Bazaar,Gandhi Bazaar
+Ganesh Bhavan,470,,12.941281,77.571365,,Ganesh Bhavan,Ganesh Bhavan
+Ganganagar,472,,13.02442,77.58522,,Ganganagar,Ganganagar
+Garebhavipalya,482,,12.89439,77.63686,,Garebhavipalya,Garebhavipalya
+Gaudanapalya,485,,12.91177,77.55863,,Gaudanapalya,Gaudanapalya
+Geddalahalli (Hennur),490,,13.05264,77.64607,,Geddalahalli (Hennur),Geddalahalli (Hennur)
+Girinagar Cross,501,,12.94334,77.54138,,Girinagar Cross,Girinagar Cross
+GKW Layout,503,,12.9679,77.52865,,GKW Layout,GKW Layout
+Gollarahatti,507,,12.98122,77.43808,,Gollarahatti,Gollarahatti
+Goods Shed Road(City),511,,12.97354,77.569372,,Goods Shed Road(City),Goods Shed Road(City)
+Goraguntepalya,512,,13.02898,77.53925,,Goraguntepalya,Goraguntepalya
+Gottigere,513,,12.85649,77.58886,,Gottigere,Gottigere
+Govardhan Theater,515,,13.02889,77.53923,,Govardhan Theater,Govardhan Theater
+Govindapura (Nagavara),518,,13.03339,77.61774,,Govindapura (Nagavara),Govindapura (Nagavara)
+Govindapura Cross (Nagavara),520,,13.03203,77.62176,,Govindapura Cross (Nagavara),Govindapura Cross (Nagavara)
+GPO,523,,12.98183,77.59495,,GPO,GPO
+Graphite India Limited,524,,12.977701,77.709625,,Graphite India Limited,Graphite India Limited
+Gubbalala,526,,12.88569,77.54185,,Gubbalala,Gubbalala
+Gubbalala Cross,527,,12.88414,77.55129,,Gubbalala Cross,Gubbalala Cross
+Gubbi Cross,528,,13.06667,77.65175,,Gubbi Cross,Gubbi Cross
+Gunasheela Hospital,537,,12.94047,77.57554,,Gunasheela Hospital,Gunasheela Hospital
+Gurappanapalya,544,,12.92911,77.60043,,Gurappanapalya,Gurappanapalya
+HAL 3rd Stage,548,,12.97217,77.65317,,HAL 3rd Stage,HAL 3rd Stage
+HAL Engine Division,550,,12.98752,77.64956,,HAL Engine Division,HAL Engine Division
+HAL ESI Hospital,551,,12.962112,77.665068,,HAL ESI Hospital,HAL ESI Hospital
+HAL Kalyana Mantapa,552,,12.954657,77.682261,,HAL Kalyana Mantapa,HAL Kalyana Mantapa
+HAL Main Gate,553,,12.9587,77.66581,,HAL Main Gate,HAL Main Gate
+Halappanahalli,554,,13.10577,77.78835,,Halappanahalli,Halappanahalli
+Halasuru,556,,12.97771,77.6284,,Halasuru,Halasuru
+Hanumanthanagar,562,,12.94161,77.55812,,Hanumanthanagar,Hanumanthanagar
+Hasanath Women's College,572,,12.97442,77.62022,,Hasanath Women's College,Hasanath Women's College
+Havanur Circle,573,,12.98795,77.53759,,Havanur Circle,Havanur Circle
+HBR Layout 3rd Block,579,,13.02776,77.6327,,HBR Layout 3rd Block,HBR Layout 3rd Block
+HBR Layout 4th Block,580,,13.03213,77.63012,,HBR Layout 4th Block,HBR Layout 4th Block
+HBR Layout 5th Block,581,,13.03646,77.62755,,HBR Layout 5th Block,HBR Layout 5th Block
+Hebbal,583,,13.03827,77.58925,,Hebbal,Hebbal
+Hennur,594,,13.03951,77.64143,,Hennur,Hennur
+Hennur Bande,595,,13.03686,77.641,,Hennur Bande,Hennur Bande
+Hennur Cross,596,,13.03171,77.63605,,Hennur Cross,Hennur Cross
+Hennur Main Road,597,,13.00878,77.62313,,Hennur Main Road,Hennur Main Road
+Herohalli,598,,12.99964,77.48865,,Herohalli,Herohalli
+Herohalli Cross,599,,12.98741,77.49288,,Herohalli Cross,Herohalli Cross
+Hesaraghatta,600,,13.13793,77.47844,,Hesaraghatta,Hesaraghatta
+Hidayath Nagar,603,,13.02195,77.61925,,Hidayath Nagar,Hidayath Nagar
+Hockey Stadium,610,,12.96046,77.601065,,Hockey Stadium,Hockey Stadium
+Honeywell (Bannerghatta Road),613,,12.899032,77.600652,,Honeywell (Bannerghatta Road),Honeywell (Bannerghatta Road)
+Hope Farm,621,,12.9838,77.7523,,Hope Farm,Hope Farm
+Hosa Road,625,,12.86971,77.65394,,Hosa Road,Hosa Road
+Hosakerehalli Cross,628,,12.93093,77.54292,,Hosakerehalli Cross,Hosakerehalli Cross
+Hosakerehalli Petrol Bunk,629,,12.93418,77.53894,,Hosakerehalli Petrol Bunk,Hosakerehalli Petrol Bunk
+Hosakote,630,,13.07743,77.80142,,Hosakote,Hosakote
+Hosakote High School,631,,13.07032,77.78346,,Hosakote High School,Hosakote High School
+Hosakote Kodi,632,,13.06986,77.78222,,Hosakote Kodi,Hosakote Kodi
+Hosur Bande,635,,13.10625,77.66077,,Hosur Bande,Hosur Bande
+HRBR Layout 3rd Block,638,,13.03263,77.62952,,HRBR Layout 3rd Block,HRBR Layout 3rd Block
+HSR Layout BDA Complex,641,,12.91281,77.6381,,HSR Layout BDA Complex,HSR Layout BDA Complex
+HSR Layout SI Apartment,645,,12.91617,77.63218,,HSR Layout SI Apartment,HSR Layout SI Apartment
+Hulimavu Gate,649,,12.88137,77.59615,,Hulimavu Gate,Hulimavu Gate
+Hunasemaranahalli,654,,13.14383,77.61766,,Hunasemaranahalli,Hunasemaranahalli
+Huralichikkanahalli Gate,658,,13.11593,77.48292,,Huralichikkanahalli Gate,Huralichikkanahalli Gate
+IAF,665,,13.131286,77.615393,,IAF,IAF
+IAF Training School,667,,13.01703,77.58376,,IAF Training School,IAF Training School
+Iblur,668,,12.92133,77.66261,,Iblur,Iblur
+IIM Bangalore,671,,12.89857,77.60072,,IIM Bangalore,IIM Bangalore
+Ilyasnagar,672,,12.9042,77.57339,,Ilyasnagar,Ilyasnagar
+Indian Express/Balekundri Circle,675,,12.984073,77.597374,,Indian Express/Balekundri Circle,Indian Express/Balekundri Circle
+Indian Statistical Institute,676,,12.93135,77.5064,,Indian Statistical Institute,Indian Statistical Institute
+Indiranagar BMTC Depot,682,,12.98248,77.63476,,Indiranagar BMTC Depot,Indiranagar BMTC Depot
+Indiranagar Police Station,684,,12.97811,77.64107,,Indiranagar Police Station,Indiranagar Police Station
+Innovative Multiplex,691,,12.95155,77.6996,,Innovative Multiplex,Innovative Multiplex
+ISKCON,693,,13.01171,77.55125,,ISKCON,ISKCON
+Isolation Hospital,694,,12.98561,77.64473,,Isolation Hospital,Isolation Hospital
+ITI Colony (K R Puram),698,,13.00518,77.68478,,ITI Colony (K R Puram),ITI Colony (K R Puram)
+ITPL,700,,12.987695,77.735868,,ITPL,ITPL
+J C Nagar,706,,13.00622,77.59311,,J C Nagar,J C Nagar
+J C Road,707,,12.95944,77.58296,,J C Road,J C Road
+J P Nagar 1st Phase,709,,12.9112,77.575021,,J P Nagar 1st Phase,J P Nagar 1st Phase
+J P Nagar 24th Main 9th Cross,710,,12.91039,77.58594,,J P Nagar 24th Main 9th Cross,J P Nagar 24th Main 9th Cross
+J P Nagar 6th Phase,713,,12.90652,77.577671,,J P Nagar 6th Phase,J P Nagar 6th Phase
+J P Nagar Kalyani Magnum,715,,12.90092,77.59751,,J P Nagar Kalyani Magnum,J P Nagar Kalyani Magnum
+Jakkasandra,723,,12.92428,77.63877,,Jakkasandra,Jakkasandra
+Jakkur,724,,13.07893,77.59296,,Jakkur,Jakkur
+Jalahalli Cross,727,,13.03997,77.51839,,Jalahalli Cross,Jalahalli Cross
+Jaraganahalli,737,,12.90144,77.57337,,Jaraganahalli,Jaraganahalli
+Jayadeva Hospital,738,,12.91663,77.5991,,Jayadeva Hospital,Jayadeva Hospital
+Jayamahal,739,,13.005645,77.593335,,Jayamahal,Jayamahal
+Jayanagar 1st Block,740,,12.94141,77.58538,,Jayanagar 1st Block,Jayanagar 1st Block
+Jayanagar 3rd Block,741,,12.93351,77.58418,,Jayanagar 3rd Block,Jayanagar 3rd Block
+Jayanagar 4th Block,742,,12.928496,77.584108,,Jayanagar 4th Block,Jayanagar 4th Block
+Jayanagar 4th T Block,743,,12.923134,77.593617,,Jayanagar 4th T Block,Jayanagar 4th T Block
+Jayanagar 5th Block,744,,12.91718,77.58367,,Jayanagar 5th Block,Jayanagar 5th Block
+Jayanagar 6th Block,745,,12.93083,77.57835,,Jayanagar 6th Block,Jayanagar 6th Block
+Jayanagar 9th Block,747,,12.91959,77.59269,,Jayanagar 9th Block,Jayanagar 9th Block
+Jayanagar 9th Block East End,748,,12.91695,77.59709,,Jayanagar 9th Block East End,Jayanagar 9th Block East End
+Jayanagar National College,752,,12.92441,77.578907,,Jayanagar National College,Jayanagar National College
+Jayanagar Pump House,753,,12.92631,77.59713,,Jayanagar Pump House,Jayanagar Pump House
+Jayanagar Telephone Exchange,755,,12.924036,77.583754,,Jayanagar Telephone Exchange,Jayanagar Telephone Exchange
+Jeevanabhimanagar,758,,12.965714,77.657901,,Jeevanabhimanagar,Jeevanabhimanagar
+Jeevanabhimanagar Police Station,759,,12.967573,77.655946,,Jeevanabhimanagar Police Station,Jeevanabhimanagar Police Station
+Jindal Factory,766,,13.05389,77.48321,,Jindal Factory,Jindal Factory
+John Fowler,774,Kripanidhi College,12.92411,77.63036,,John Fowler,John Fowler
+Johnson Market,775,,12.963252,77.606869,,Johnson Market,Johnson Market
+Jyothi Farm,779,,12.85695,77.526923,,Jyothi Farm,Jyothi Farm
+Jyothi School,780,,13.01635,77.62939,,Jyothi School,Jyothi School
+K C General Hospital,783,,12.99686,77.56912,,K C General Hospital,K C General Hospital
+K Narayanapura,784,,13.06763,77.63362,,K Narayanapura,K Narayanapura
+K Narayanapura Cross,785,,13.06752,77.63373,,K Narayanapura Cross,K Narayanapura Cross
+K R Circle,786,,12.978216,77.572671,,K R Circle,K R Circle
+K R Market,787,,12.96414,77.57704,,K R Market,K R Market
+K R Puram,788,,13.00807,77.69259,,K R Puram,K R Puram
+K R Puram Railway Station,789,,13.00033,77.676081,,K R Puram Railway Station,K R Puram Railway Station
+Kacharakanahalli,792,,13.02084,77.62982,,Kacharakanahalli,Kacharakanahalli
+Kadabisanahalli,796,,12.93528,77.69115,,Kadabisanahalli,Kadabisanahalli
+Kadasonnappanahalli,797,,13.1015,77.6582,,Kadasonnappanahalli,Kadasonnappanahalli
+Kadugodi,802,,13.00025,77.72557,,Kadugodi,Kadugodi
+Kadugondanahalli,804,,13.01919,77.61884,,Kadugondanahalli,Kadugondanahalli
+Kadugondanahalli Police Station,805,,13.02132,77.619132,,Kadugondanahalli Police Station,Kadugondanahalli Police Station
+Kaggalipura,810,,12.80029,77.50829,,Kaggalipura,Kaggalipura
+Kaikondrahalli,811,,12.913981,77.677948,,Kaikondrahalli,Kaikondrahalli
+Kalena Agrahara,820,,12.86607,77.59214,,Kalena Agrahara,Kalena Agrahara
+Kalkere (Bannerghatta),823,,12.83549,77.5894,,Kalkere (Bannerghatta),Kalkere (Bannerghatta)
+Kalyananagar (HRBR Layout 2nd Block),829,,13.02601,77.63826,,Kalyananagar (HRBR Layout 2nd Block),Kalyananagar (HRBR Layout 2nd Block)
+Kamakhya Theater,832,,12.923821,77.553402,,Kamakhya Theater,Kamakhya Theater
+Kamakshipalya,834,,12.98501,77.5238,,Kamakshipalya,Kamakshipalya
+Kamalanagar Water Tank,839,,12.99529,77.53996,,Kamalanagar Water Tank,Kamalanagar Water Tank
+Kannalli,852,,12.9073,77.69551,,Kannalli,Kannalli
+Kannur,856,,13.09323,77.65411,,Kannur,Kannur
+Kanteerava Stadium,858,,12.9682,77.58944,,Kanteerava Stadium,Kanteerava Stadium
+Kanteerava Studio,859,,13.02122,77.532438,,Kanteerava Studio,Kanteerava Studio
+Kasturinagar,871,,13.00439,77.65564,,Kasturinagar,Kasturinagar
+Kasturinagar Cross,872,,12.99835,77.66362,,Kasturinagar Cross,Kasturinagar Cross
+Katriguppe,873,,12.925437,77.54991,,Katriguppe,Katriguppe
+Katriguppe Janata Bazaar,874,,12.9256,77.54945,,Katriguppe Janata Bazaar,Katriguppe Janata Bazaar
+Kaveri Bhavan,879,Mysore Bank,12.973111,77.582107,,Kaveri Bhavan,Kaveri Bhavan
+Kempegowda Bus Station,889,,12.97676,77.5727,,Kempegowda Bus Station,Kempegowda Bus Station
+Kengeri,896,,12.910677,77.484416,,Kengeri,Kengeri
+Kengeri Ganesha Temple,897,,12.912292,77.481616,,Kengeri Ganesha Temple,Kengeri Ganesha Temple
+Kengeri Housing Board Quarters,898,,12.93218,77.49026,,Kengeri Housing Board Quarters,Kengeri Housing Board Quarters
+Kengeri Post Office,900,,12.912167,77.480532,,Kengeri Post Office,Kengeri Post Office
+Kengeri Railway Station,901,,12.91652,77.4823,,Kengeri Railway Station,Kengeri Railway Station
+Kengeri Satellite Town,902,,12.92593,77.48563,,Kengeri Satellite Town,Kengeri Satellite Town
+Kengeri Satellite Town Church,903,,12.9282,77.48638,,Kengeri Satellite Town Church,Kengeri Satellite Town Church
+Kengeri Syndicate Bank,904,,12.92104,77.48383,,Kengeri Syndicate Bank,Kengeri Syndicate Bank
+KHB Colony,907,,12.98127,77.53575,,KHB Colony,KHB Colony
+KIMS Hospital,908,,12.9573,77.57381,,KIMS Hospital,KIMS Hospital
+Kodathi,913,,12.88824,77.71634,,Kodathi,Kodathi
+Kodathi Gate,914,,12.89661,77.7202,,Kodathi Gate,Kodathi Gate
+Kodigehalli Gate (Bellary Road),920,,13.05764,77.59325,,Kodigehalli Gate (Bellary Road),Kodigehalli Gate (Bellary Road)
+Kodigehalli Gate (Bellary Road) (Magadi Road),922,,13.06267,77.59339,,Kodigehalli Gate (Bellary Road) (Magadi Road),Kodigehalli Gate (Bellary Road) (Magadi Road)
+Kodihalli (Old Airport Road),924,,12.95997,77.64671,,Kodihalli (Old Airport Road),Kodihalli (Old Airport Road)
+Kogilu Cross,929,,13.12174,77.6109,,Kogilu Cross,Kogilu Cross
+Koli Farm Gate,930,,12.84176,77.58862,,Koli Farm Gate,Koli Farm Gate
+Konanakunte Cross,936,,12.89038,77.56395,,Konanakunte Cross,Konanakunte Cross
+Konappana Agrahara,937,,12.85427,77.66551,,Konappana Agrahara,Konappana Agrahara
+Konena Agrahara,940,,12.95935,77.66059,,Konena Agrahara,Konena Agrahara
+Koramangala,946,Aishwarya Stores 1 Block,12.92478,77.63466,,Koramangala,Koramangala
+Koramangala BDA Complex,948,,12.930634,77.62248,,Koramangala BDA Complex,Koramangala BDA Complex
+Koramangala BMTC Depot,949,,12.94104,77.62459,,Koramangala BMTC Depot,Koramangala BMTC Depot
+Koramangala Cambridge Public School,950,,12.93545,77.62899,,Koramangala Cambridge Public School,Koramangala Cambridge Public School
+Koramangala Water Tank,956,,12.92727,77.62125,,Koramangala Water Tank,Koramangala Water Tank
+Kothanur (Hennur),957,,13.06185,77.64891,,Kothanur (Hennur),Kothanur (Hennur)
+Kottigepalya,961,,12.98779,77.51526,,Kottigepalya,Kottigepalya
+Kudlu Gate,973,,12.88921,77.6403,,Kudlu Gate,Kudlu Gate
+Kumaraswamy Temple,983,,12.940199,77.563297,,Kumaraswamy Temple,Kumaraswamy Temple
+Kumbalahalli,984,,13.0921,77.79329,,Kumbalahalli,Kumbalahalli
+Kumbalahalli Gate,985,,13.08853,77.78078,,Kumbalahalli Gate,Kumbalahalli Gate
+Kundalahalli Colony,989,,12.970364,77.712393,,Kundalahalli Colony,Kundalahalli Colony
+Kundalahalli Gate,990,,12.955951,77.714981,,Kundalahalli Gate,Kundalahalli Gate
+Kuppareddykere,991,,12.84017,77.51702,,Kuppareddykere,Kuppareddykere
+Kuvempunagar (BTM Layout),997,,12.91609,77.61657,,Kuvempunagar (BTM Layout),Kuvempunagar (BTM Layout)
+Lakeside Hospital,1005,,12.98822,77.61775,,Lakeside Hospital,Lakeside Hospital
+Lakkasandra,1006,,12.94502,77.59719,,Lakkasandra,Lakkasandra
+Lakkondanahalli (Hosakote),1008,,13.10577,77.78805,,Lakkondanahalli (Hosakote),Lakkondanahalli (Hosakote)
+Lakshmipura (Halasuru),1016,,12.97822,77.63306,,Lakshmipura (Halasuru),Lakshmipura (Halasuru)
+Lalbagh Main Gate (towards Shantinagar),1020,,12.95415,77.58613,,Lalbagh Main Gate (towards Shantinagar),Lalbagh Main Gate (towards Shantinagar)
+Lalbagh West Gate (towards South End),1021,,12.947805,77.580298,,Lalbagh West Gate (towards South End),Lalbagh West Gate (towards South End)
+Langford Town,1022,,12.95724,77.60612,,Langford Town,Langford Town
+Leprosarium,1025,,12.97586,77.56452,,Leprosarium,Leprosarium
+Lingarajapura,1030,,13.01037,77.6242,,Lingarajapura,Lingarajapura
+Loyola School (Bannerghatta Road),1034,,12.87097,77.59362,,Loyola School (Bannerghatta Road),Loyola School (Bannerghatta Road)
+M G Road (Anil Kumble Circle),1036,,12.976499,77.601988,,M G Road (Anil Kumble Circle),M G Road (Anil Kumble Circle)
+Madanayakanahalli,1046,,13.06079,77.46147,,Madanayakanahalli,Madanayakanahalli
+Madavara,1051,,13.05789,77.46986,,Madavara,Madavara
+Madhavan Park,1053,,12.93886,77.58549,,Madhavan Park,Madhavan Park
+Madiwala Police Station,1057,,12.92118,77.62039,,Madiwala Police Station,Madiwala Police Station
+Magadi Road 1st Cross,1060,,12.97555,77.56264,,Magadi Road 1st Cross,Magadi Road 1st Cross
+Magadi Road 5th Cross,1061,,12.97568,77.56057,,Magadi Road 5th Cross,Magadi Road 5th Cross
+Magadi Road Dasarahalli,1062,,12.97855,77.54309,,Magadi Road Dasarahalli,Magadi Road Dasarahalli
+Magadi Road Toll Gate,1063,,12.97476,77.54901,,Magadi Road Toll Gate,Magadi Road Toll Gate
+Mahadevapura,1065,,12.99417,77.68506,,Mahadevapura,Mahadevapura
+Mahadevapura Cross,1066,,12.98802,77.68939,,Mahadevapura Cross,Mahadevapura Cross
+Maharani's College,1072,,12.978056,77.584537,,Maharani's College,Maharani's College
+Mahila Seva Samaja/Sajjan Rao Circle,1075,,12.95272,77.57675,,Mahila Seva Samaja/Sajjan Rao Circle,Mahila Seva Samaja/Sajjan Rao Circle
+Makali,1077,,13.06618,77.45228,,Makali,Makali
+Malleswaram 11th Cross,1086,,13.00186,77.57139,,Malleswaram 11th Cross,Malleswaram 11th Cross
+Malleswaram 18th Cross,1087,,13.0087,77.57107,,Malleswaram 18th Cross,Malleswaram 18th Cross
+Malleswaram 8th Cross,1088,,12.999263,77.571652,,Malleswaram 8th Cross,Malleswaram 8th Cross
+Malleswaram Canara Union Centre,1090,,13.00322,77.565338,,Malleswaram Canara Union Centre,Malleswaram Canara Union Centre
+Malleswaram Circle,1091,,12.99689,77.571512,,Malleswaram Circle,Malleswaram Circle
+Manipal Hospital,1100,,12.9598,77.64968,,Manipal Hospital,Manipal Hospital
+Manjunathanagar (Rajajinagar),1101,,12.98492,77.55425,,Manjunathanagar (Rajajinagar),Manjunathanagar (Rajajinagar)
+Marathahalli,1112,,12.957088,77.698681,,Marathahalli,Marathahalli
+Marathahalli Bridge,1113,,12.956764,77.702141,,Marathahalli Bridge,Marathahalli Bridge
+Marenahalli (J.P.Nagar LIC),1114,,12.915275,77.585935,,Marenahalli (J.P.Nagar LIC),Marenahalli (J.P.Nagar LIC)
+Mayo Hall,1131,,12.97369,77.61059,,Mayo Hall,Mayo Hall
+MCTC Mysore Road Bus Station,1132,,12.95513,77.54382,,MCTC Mysore Road Bus Station,MCTC Mysore Road Bus Station
+Medahalli,1134,,13.02632,77.7205,,Medahalli,Medahalli
+Meenakshi Temple,1137,,12.8747,77.59498,,Meenakshi Temple,Meenakshi Temple
+MEI Factory,1141,,13.02632,77.54423,,MEI Factory,MEI Factory
+Mekhri Circle,1143,,13.01702,77.58382,,Mekhri Circle,Mekhri Circle
+Metro Mall (Kanakapura Road),1146,,12.8928,77.5671,,Metro Mall (Kanakapura Road),Metro Mall (Kanakapura Road)
+MICO,1147,,12.94651,77.60659,,MICO,MICO
+MICO Layout,1149,,12.91968,77.60264,,MICO Layout,MICO Layout
+Military Accounts Office,1151,,12.96721,77.62085,,Military Accounts Office,Military Accounts Office
+Military Dairy Farm Gate,1152,,13.04963,77.59257,,Military Dairy Farm Gate,Military Dairy Farm Gate
+Minerva Circle,1154,,12.955081,77.580246,,Minerva Circle,Minerva Circle
+Minerva Mill,1155,,12.9789,77.56,,Minerva Mill,Minerva Mill
+Modi Eye Hospital,1158,,12.99979,77.54545,,Modi Eye Hospital,Modi Eye Hospital
+Mori Gate,1161,,12.91046,77.68527,,Mori Gate,Mori Gate
+Morrison Factory,1162,,13.05063,77.49226,,Morrison Factory,Morrison Factory
+Muneshwara Block,1171,,12.94239,77.54812,,Muneshwara Block,Muneshwara Block
+Munnekolalu,1178,,12.9512,77.70678,,Munnekolalu,Munnekolalu
+Munnekolalu Cross,1179,,12.95653,77.70487,,Munnekolalu Cross,Munnekolalu Cross
+Murphy Town,1180,,12.982,77.62676,,Murphy Town,Murphy Town
+Murugeshpalya,1181,,12.95931,77.6571,,Murugeshpalya,Murugeshpalya
+Muslim Colony,1182,,13.00759,77.61246,,Muslim Colony,Muslim Colony
+Muthanallur Cross,1184,,12.8869,77.7382,,Muthanallur Cross,Muthanallur Cross
+Mylasandra (Kengeri),1197,,12.91625,77.49833,,Mylasandra (Kengeri),Mylasandra (Kengeri)
+Mylasandra Cross (Kengeri),1198,,12.91774,77.49069,,Mylasandra Cross (Kengeri),Mylasandra Cross (Kengeri)
+Mysore Road Flyover,1202,,12.96115,77.55979,,Mysore Road Flyover,Mysore Road Flyover
+Nagasandra Circle,1227,,12.936877,77.571985,,Nagasandra Circle,Nagasandra Circle
+Nagavara,1229,,13.04003,77.62418,,Nagavara,Nagavara
+Nagendra Block,1232,,12.94187,77.55382,,Nagendra Block,Nagendra Block
+Nallurupura Cross,1239,,12.97418,77.6471,,Nallurupura Cross,Nallurupura Cross
+Nanda Talkies,1240,,12.93079,77.5803,,Nanda Talkies,Nanda Talkies
+National College Basavanagudi,1253,,12.94849,77.57392,,National College Basavanagudi,National College Basavanagudi
+National Games Village,1254,,12.94248,77.62287,,National Games Village,National Games Village
+Navarang Talkies,1257,,12.99803,77.5518,,Navarang Talkies,Navarang Talkies
+Nayandahalli,1259,,12.94384,77.52674,,Nayandahalli,Nayandahalli
+Nelamangala,1264,,13.09791,77.39409,,Nelamangala,Nelamangala
+Nelamangala Janapriya Apartment,1265,,13.09265,77.39456,,Nelamangala Janapriya Apartment,Nelamangala Janapriya Apartment
+Nettakalappa Circle,1271,,12.940751,77.5739,,Nettakalappa Circle,Nettakalappa Circle
+New Guddadahalli,1274,,12.95609,77.54597,,New Guddadahalli,New Guddadahalli
+New Horizon College,1275,,12.93511,77.6911,,New Horizon College,New Horizon College
+NGEF,1277,,12.98841,77.65122,,NGEF,NGEF
+NIMHANS,1279,/Kidwai Hospital,12.93765,77.59929,,NIMHANS,NIMHANS
+Nirmala Stores,1280,,12.941692,77.557329,,Nirmala Stores,Nirmala Stores
+Okalipuram,1288,,12.98229,77.565,,Okalipuram,Okalipuram
+P&T Colony,1294,,13.01183,77.61588,,P&T Colony,P&T Colony
+Palace Guttahalli,1296,,12.99893,77.58401,,Palace Guttahalli,Palace Guttahalli
+Pantarapalya,1300,,12.93899,77.52704,,Pantarapalya,Pantarapalya
+Parade Ground,1302,,12.9757,77.60626,,Parade Ground,Parade Ground
+Peenya 1st Stage,1313,,13.03458,77.52975,,Peenya 1st Stage,Peenya 1st Stage
+PES Institute of Technology,1317,,12.93603,77.53505,,PES Institute of Technology,PES Institute of Technology
+PES School of Engineering (Hosur Road),1318,,12.85887,77.66197,,PES School of Engineering (Hosur Road),PES School of Engineering (Hosur Road)
+Platform Road,1323,,12.98992,77.57191,,Platform Road,Platform Road
+Prasanna Talkies,1330,,12.9751,77.55268,,Prasanna Talkies,Prasanna Talkies
+R C College,1337,,12.98384,77.5877,,R C College,R C College
+R V College of Engineering,1340,,12.92549,77.49947,,R V College of Engineering,R V College of Engineering
+Race Course Road,1341,,12.98415,77.58212,,Race Course Road,Race Course Road
+Raghuvanahalli,1344,,12.87891,77.54534,,Raghuvanahalli,Raghuvanahalli
+Ragigudda,1345,,12.91674,77.5936,,Ragigudda,Ragigudda
+Railwaymen Layout,1349,,13.06129,77.63313,,Railwaymen Layout,Railwaymen Layout
+Rajajinagar EPH,1356,,12.97963,77.55369,,Rajajinagar EPH,Rajajinagar EPH
+Rajajinagar ESI Hospital,1357,,12.990502,77.552721,,Rajajinagar ESI Hospital,Rajajinagar ESI Hospital
+Rajajinagar Industrial Town,1358,,12.98294,77.54292,,Rajajinagar Industrial Town,Rajajinagar Industrial Town
+Rajajinagar Rama Mandir,1359,,12.986261,77.556495,,Rajajinagar Rama Mandir,Rajajinagar Rama Mandir
+Rajarajeshwarinagar,1367,,12.92765,77.51412,,Rajarajeshwarinagar,Rajarajeshwarinagar
+Rajarajeshwarinagar Gate,1368,,12.93629,77.51803,,Rajarajeshwarinagar Gate,Rajarajeshwarinagar Gate
+Ramagondanahalli (Varthur Road),1377,,12.95688,77.74076,,Ramagondanahalli (Varthur Road),Ramagondanahalli (Varthur Road)
+Ramakrishna Ashram,1378,,12.9494,77.56793,,Ramakrishna Ashram,Ramakrishna Ashram
+Ramakrishna Hegde Nagar,1379,,13.09181,77.63575,,Ramakrishna Hegde Nagar,Ramakrishna Hegde Nagar
+Ramamurthynagar Underpass,1383,,13.01394,77.6621,,Ramamurthynagar Underpass,Ramamurthynagar Underpass
+Ravuthanahalli,1394,,13.02686,77.42355,,Ravuthanahalli,Ravuthanahalli
+Ravuthanahalli Cross,1395,,13.00916,77.42115,,Ravuthanahalli Cross,Ravuthanahalli Cross
+Richmond Circle(Towards Mayohall),1398,,12.966702,77.598892,,Richmond Circle(Towards Mayohall),Richmond Circle(Towards Mayohall)
+Rupena Agrahara,1401,,12.91305,77.62519,,Rupena Agrahara,Rupena Agrahara
+Sadahalli,1403,,13.21043,77.64645,,Sadahalli,Sadahalli
+Sadahalli Cross,1404,,13.19123,77.6463,,Sadahalli Cross,Sadahalli Cross
+Sadashivanagar,1407,,13.01018,77.58047,,Sadashivanagar,Sadashivanagar
+Sadashivanagar Police Station,1408,,13.01483,77.57259,,Sadashivanagar Police Station,Sadashivanagar Police Station
+Saladoddi,1414,,12.8304,77.5132,,Saladoddi,Saladoddi
+Sangam Circle,1418,,12.917484,77.577783,,Sangam Circle,Sangam Circle
+Sanjay Gandhi Hospital (Old),1419,,12.92704,77.59268,,Sanjay Gandhi Hospital (Old),Sanjay Gandhi Hospital (Old)
+Sarakki Gate,1423,,12.90949,77.573192,,Sarakki Gate,Sarakki Gate
+Sarjapur,1426,,12.86139,77.78681,,Sarjapur,Sarjapur
+Shabari Nagar Cross,1438,,13.06765,77.63364,,Shabari Nagar Cross,Shabari Nagar Cross
+Shankara Mutt (Basaveshwaranagar),1441,,13.0032,77.5417,,Shankara Mutt (Basaveshwaranagar),Shankara Mutt (Basaveshwaranagar)
+Shanthi Talkies,1444,,12.939104,77.571727,,Shanthi Talkies,Shanthi Talkies
+Shanthinagar Bus Station,1445,,12.954584,77.592423,,Shanthinagar Bus Station,Shanthinagar Bus Station
+Sharavathi Hotel (Yelahanka),1451,,13.09717,77.583497,,Sharavathi Hotel (Yelahanka),Sharavathi Hotel (Yelahanka)
+Sheshadripuram,1453,,12.99335,77.57159,,Sheshadripuram,Sheshadripuram
+Shinivagilu Main Road,1459,,12.93446,77.62981,,Shinivagilu Main Road,Shinivagilu Main Road
+Shirke Apartment,1460,,12.93175,77.48761,,Shirke Apartment,Shirke Apartment
+Shivajinagar,1461,,12.98342,77.60318,,Shivajinagar,Shivajinagar
+Siddapura (Ashoka Pillar),1467,,12.94624,77.58868,,Siddapura (Ashoka Pillar),Siddapura (Ashoka Pillar)
+Siddapura (Varthur Road),1468,,12.95638,77.73218,,Siddapura (Varthur Road),Siddapura (Varthur Road)
+Singasandra,1477,,12.87574,77.64879,,Singasandra,Singasandra
+Sirsi Circle,1478,,12.96127,77.55944,,Sirsi Circle,Sirsi Circle
+Sivananda Stores,1479,,12.986545,77.579865,,Sivananda Stores,Sivananda Stores
+Slaughter House,1480,,13.00355,77.61189,,Slaughter House,Slaughter House
+Soladevanahalli Police Station,1481,,13.10899,77.48327,,Soladevanahalli Police Station,Soladevanahalli Police Station
+Sompura Gate,1487,,12.862,77.7715,,Sompura Gate,Sompura Gate
+South End Circle,1492,,12.93716,77.57908,,South End Circle,South End Circle
+Srinagar Apex Bank,1497,,12.94289,77.54592,,Srinagar Apex Bank,Srinagar Apex Bank
+Srirampuram,1506,,12.994951,77.566341,,Srirampuram,Srirampuram
+Srirampuram Harishchandra Ghat,1507,,12.99701,77.56097,,Srirampuram Harishchandra Ghat,Srirampuram Harishchandra Ghat
+SSMRV College,1509,,12.92167,77.59268,,SSMRV College,SSMRV College
+St John's Hospital,1510,,12.92967,77.61589,,St John's Hospital,St John's Hospital
+St Mark's Road,1511,,12.972871,77.601312,,St Mark's Road,St Mark's Road
+St Patrick Church,1512,,12.97011,77.6054,,St Patrick Church,St Patrick Church
+St Thomas Town,1514,,13.01761,77.62979,,St Thomas Town,St Thomas Town
+Suddaguntepalya Cross,1521,,12.98996,77.65495,,Suddaguntepalya Cross,Suddaguntepalya Cross
+Sujatha Talkies,1524,,12.98249,77.56178,,Sujatha Talkies,Sujatha Talkies
+Sultanpalya,1528,,13.026624,77.603699,,Sultanpalya,Sultanpalya
+Sunkadakatte,1531,,12.99013,77.504,,Sunkadakatte,Sunkadakatte
+Swastik,1537,,12.98816,77.57735,,Swastik,Swastik
+Tata Institute (IISc),1547,,13.01564,77.56341,,Tata Institute (IISc),Tata Institute (IISc)
+Tataguni Estate,1549,,12.84247,77.51751,,Tataguni Estate,Tataguni Estate
+Tavakkal Mosque,1553,,13.10583,77.66499,,Tavakkal Mosque,Tavakkal Mosque
+TCI (Tumkur Road),1554,,13.05887,77.46572,,TCI (Tumkur Road),TCI (Tumkur Road)
+Teachers College,1555,,12.943629,77.580141,,Teachers College,Teachers College
+Telephone Exchange (Vidhana Soudha),1559,,12.9834,77.58872,,Telephone Exchange (Vidhana Soudha),Telephone Exchange (Vidhana Soudha)
+Thalaghattapura,1562,,12.86904,77.53661,,Thalaghattapura,Thalaghattapura
+Thanisandra,1566,,13.05578,77.63218,,Thanisandra,Thanisandra
+Thippasandra (Indiranagar),1581,,12.97303,77.6477,,Thippasandra (Indiranagar),Thippasandra (Indiranagar)
+Thippasandra Market (Indiranagar),1584,,12.97263,77.650031,,Thippasandra Market (Indiranagar),Thippasandra Market (Indiranagar)
+Tin Factory,1603,,12.99699,77.66986,,Tin Factory,Tin Factory
+Town Hall,1606,,12.963701,77.585186,,Town Hall,Town Hall
+Trinity Circle,1607,,12.9715,77.61978,,Trinity Circle,Trinity Circle
+Tubarahalli,1608,,12.95609,77.72143,,Tubarahalli,Tubarahalli
+Tumkur Road 8th Mile,1610,,13.04539,77.50721,,Tumkur Road 8th Mile,Tumkur Road 8th Mile
+TV Tower,1611,,13.007903,77.592439,,TV Tower,TV Tower
+Udayapalya,1613,,12.82046,77.51378,,Udayapalya,Udayapalya
+Udupi Garden/BTM Layout 16th Main,1615,,12.91687,77.61023,,Udupi Garden/BTM Layout 16th Main,Udupi Garden/BTM Layout 16th Main
+Uma Talkies,1619,,12.95603,77.5676,,Uma Talkies,Uma Talkies
+Urvashi Talkies,1621,,12.955536,77.585889,,Urvashi Talkies,Urvashi Talkies
+Valmikinagar,1637,,12.95784,77.55412,,Valmikinagar,Valmikinagar
+Vannarpet,1638,,12.95635,77.62112,,Vannarpet,Vannarpet
+Varthur Kodi,1640,,12.95749,77.74575,,Varthur Kodi,Varthur Kodi
+Vasanthanagar,1642,,12.99272,77.59513,,Vasanthanagar,Vasanthanagar
+Vasanthapura,1643,,12.89624,77.55259,,Vasanthapura,Vasanthapura
+Veerabhadranagar,1645,,12.93957,77.53275,,Veerabhadranagar,Veerabhadranagar
+Veerannanapalya,1646,,13.042099,77.613596,,Veerannanapalya,Veerannanapalya
+Venkatala,1650,,13.11133,77.60468,,Venkatala,Venkatala
+Venkateshpuram,1652,,13.01472,77.61729,,Venkateshpuram,Venkateshpuram
+Veterinary College,1653,,13.02919,77.58622,,Veterinary College,Veterinary College
+Vidhana Soudha,1655,,12.97859,77.59187,,Vidhana Soudha,Vidhana Soudha
+Vidyanagara Cross,1658,,13.16115,77.62669,,Vidyanagara Cross,Vidyanagara Cross
+Vijayanagar,1669,,12.97313,77.53859,,Vijayanagar,Vijayanagar
+Vijayanagar BMTC Depot,1671,,12.96537,77.53515,,Vijayanagar BMTC Depot,Vijayanagar BMTC Depot
+Vijayanagar Maruti Mandir,1672,,12.96776,77.53623,,Vijayanagar Maruti Mandir,Vijayanagar Maruti Mandir
+Vimanapura,1675,,12.95818,77.66798,,Vimanapura,Vimanapura
+Visvesvaraya Museum,1681,,12.9748,77.596768,,Visvesvaraya Museum,Visvesvaraya Museum
+Viveknagar,1686,,12.95444,77.62079,,Viveknagar,Viveknagar
+Whitefield Club,1691,,12.96977,77.74977,,Whitefield Club,Whitefield Club
+Whitefield Post Office,1693,,12.96828,77.74845,,Whitefield Post Office,Whitefield Post Office
+Widia Factory,1695,,13.04787,77.4999,,Widia Factory,Widia Factory
+Wilson Garden 9th Cross,1697,,12.946601,77.594998,,Wilson Garden 9th Cross,Wilson Garden 9th Cross
+Wilson Garden Police Station,1698,,12.950211,77.59639,,Wilson Garden Police Station,Wilson Garden Police Station
+Windsor Manor,1699,,12.99427,77.58517,,Windsor Manor,Windsor Manor
+Yalachenahalli,1702,,12.89941,77.57283,,Yalachenahalli,Yalachenahalli
+Yamare,1703,,12.86728,77.76698,,Yamare,Yamare
+Yediyur,1707,,12.93238,77.57595,,Yediyur,Yediyur
+Yelahanka,1710,,13.1031,77.59948,,Yelahanka,Yelahanka
+Yelahanka 13th Main Road,1711,,13.10012,77.5889,,Yelahanka 13th Main Road,Yelahanka 13th Main Road
+Yelahanka Dairy Circle,1712,,13.09866,77.57393,,Yelahanka Dairy Circle,Yelahanka Dairy Circle
+Yelahanka NES Office,1713,,13.09716,77.59232,,Yelahanka NES Office,Yelahanka NES Office
+Yelahanka Police Station,1714,,13.09515,77.59416,,Yelahanka Police Station,Yelahanka Police Station
+Yelahanka Satellite Town,1715,,13.09586,77.57918,,Yelahanka Satellite Town,Yelahanka Satellite Town
+Yelahanka Satellite Town 4th Phase,1716,,13.1059,77.5724,,Yelahanka Satellite Town 4th Phase,Yelahanka Satellite Town 4th Phase
+Yelahanka Satellite Town 5th Phase,1717,,13.09779,77.563,,Yelahanka Satellite Town 5th Phase,Yelahanka Satellite Town 5th Phase
+Yelahanka Satellite Town Government School,1718,,13.09791,77.5679,,Yelahanka Satellite Town Government School,Yelahanka Satellite Town Government School
+Yeshwanthpur,1720,,13.01919,77.55298,,Yeshwanthpur,Yeshwanthpur
+Yeshwanthpur Railway Station,1721,,13.02245,77.55155,,Yeshwanthpur Railway Station,Yeshwanthpur Railway Station
+Jayanagar 5th block (on 9th main),1726,,12.917534,77.583789,,Jayanagar 5th block (on 9th main),Jayanagar 5th block (on 9th main)
+Rani Saraladevi School Jayanagar,1727,,12.93889,77.58535,,Rani Saraladevi School Jayanagar,Rani Saraladevi School Jayanagar
+Wilson Garden 10th cross,1728,,12.946473,77.595904,,Wilson Garden 10th cross,Wilson Garden 10th cross
+Nandini Hotel J.P.Nagar,1729,,12.90604,77.58579,,Nandini Hotel J.P.Nagar,Nandini Hotel J.P.Nagar
+Inchara Hotel J.P.Nagar,1730,,12.902559,77.583212,,Inchara Hotel J.P.Nagar,Inchara Hotel J.P.Nagar
+Mico Checkpost (Bannerghatta Road),1731,,12.913997,77.600094,,Mico Checkpost (Bannerghatta Road),Mico Checkpost (Bannerghatta Road)
+Mico Layout(Towards Jayadeva),1732,,12.916643,77.604938,,Mico Layout(Towards Jayadeva),Mico Layout(Towards Jayadeva)
+Indira Gandhi Circle J.P.Nagar,1733,,12.91101,77.578717,,Indira Gandhi Circle J.P.Nagar,Indira Gandhi Circle J.P.Nagar
+J.P.Nagar 9th Cross(Towards Sarakki),1734,,12.91047,77.58571,,J.P.Nagar 9th Cross(Towards Sarakki),J.P.Nagar 9th Cross(Towards Sarakki)
+J.P.agar 9th Cross(Towards Jayanagar),1735,,12.910975,77.585602,,J.P.agar 9th Cross(Towards Jayanagar),J.P.agar 9th Cross(Towards Jayanagar)
+Jayanagar 4 T block 18th main(Himalaya stores),1736,,12.92378,77.588688,,Jayanagar 4 T block 18th main(Himalaya stores),Jayanagar 4 T block 18th main(Himalaya stores)
+Richmond Circle(Towards Corpn),1737,,12.965594,77.603152,,Richmond Circle(Towards Corpn),Richmond Circle(Towards Corpn)
+Koramangala 3rd Block,1738,,12.9302,77.62188,,Koramangala 3rd Block,Koramangala 3rd Block
+Koramangala Sony World,1739,,12.93731,77.62699,,Koramangala Sony World,Koramangala Sony World
+Inner Ring Road Dell,1740,,12.95086,77.64004,,Inner Ring Road Dell,Inner Ring Road Dell
+Mallige Hospital,1741,,12.94808,77.59235,,Mallige Hospital,Mallige Hospital
+Kumara Park West,1742,,12.988087,77.577746,,Kumara Park West,Kumara Park West
+Victoria Layout,1743,,12.96646,77.61416,,Victoria Layout,Victoria Layout
+Lower Agaram Road,1744,,12.96533,77.61791,,Lower Agaram Road,Lower Agaram Road
+Marble Factories (Bannerghatta Road),1745,,12.94432,77.60296,,Marble Factories (Bannerghatta Road),Marble Factories (Bannerghatta Road)
+Sagar Apollo Hospital,1746,,12.92832,77.60053,,Sagar Apollo Hospital,Sagar Apollo Hospital
+Basavanapura Gate(Bannerghatta Road),1747,,12.84636,77.58828,,Basavanapura Gate(Bannerghatta Road),Basavanapura Gate(Bannerghatta Road)
+Hunase Mara (Banashankari),1748,,12.92091,77.57461,,Hunase Mara (Banashankari),Hunase Mara (Banashankari)
+Sumanahalli,1749,,12.98741,77.51902,,Sumanahalli,Sumanahalli
+Raman Research Institute,1750,,13.01455,77.58116,,Raman Research Institute,Raman Research Institute
+Balekundri Circle/Indian Express,1751,,12.98433,77.59744,,Balekundri Circle/Indian Express,Balekundri Circle/Indian Express
+Bagalur(Bellary Road),1752,,13.13348,77.66677,,Bagalur(Bellary Road),Bagalur(Bellary Road)
+Avalahallli(Hoskote),1753,,13.03567,77.73557,,Avalahallli(Hoskote),Avalahallli(Hoskote)
+Vabsandra(Hoskote),1754,,13.10112,77.79769,,Vabsandra(Hoskote),Vabsandra(Hoskote)
+Suryodaya Mill,1755,,13.0254693,77.5456035,,Suryodaya Mill,Suryodaya Mill
+C.M.T.I(Tumkur Road),1756,,13.03137,77.53588,,C.M.T.I(Tumkur Road),C.M.T.I(Tumkur Road)
+Bagalgunte Cross,1757,,13.06113,77.50682,,Bagalgunte Cross,Bagalgunte Cross
+Janapriya Apartment,1758,,13.06667,77.50333,,Janapriya Apartment,Janapriya Apartment
+Hesaraghatta Cross,1759,,13.12537,77.48365,,Hesaraghatta Cross,Hesaraghatta Cross
+Lalbagh Main Gate (towards JC Road),10001,,12.954133,77.585065,,Lalbagh Main Gate (towards JC Road),Lalbagh Main Gate (towards JC Road)
+Lalbagh Main Gate (towards Basavanagudi),10002,,12.95258,77.58362,,Lalbagh Main Gate (towards Basavanagudi),Lalbagh Main Gate (towards Basavanagudi)
+Lalbagh West Gate (towards RK Ashrama),10003,,12.948239,77.579628,,Lalbagh West Gate (towards RK Ashrama),Lalbagh West Gate (towards RK Ashrama)
+Lalbagh West Gate (from South End),10004,,12.947988,77.580062,,Lalbagh West Gate (from South End),Lalbagh West Gate (from South End)
+Lalbagh West Gate (from RK Ashrama),10005,,12.948398,77.579328,,Lalbagh West Gate (from RK Ashrama),Lalbagh West Gate (from RK Ashrama)
+ANEKAL ROAD STN.,AEK,,12.72362,77.710478,,ANEKAL ROAD STN.,ANEKAL ROAD STN.
+BANASWADI STN.,BAND,,13.01192,77.66298,,BANASWADI STN.,BANASWADI STN.
+CHIKKABANAVARA STN.,BAW,,13.07363,77.50666,,CHIKKABANAVARA STN.,CHIKKABANAVARA STN.
+BIDADI STN.,BID,,12.84884,77.41879,,BIDADI STN.,BIDADI STN.
+BELLANDUR RD STN.,BLRR,,12.93687,77.70684,,BELLANDUR RD STN.,BELLANDUR RD STN.
+CANTONMENT STN.,BNC,,12.993335,77.59981,,CANTONMENT STN.,CANTONMENT STN.
+BANGALORE EAST STN.,BNCE,,13.001521,77.61785,,BANGALORE EAST STN.,BANGALORE EAST STN.
+BYAPPANAHALLI STN.,BYPL,,12.9908,77.65167,,BYAPPANAHALLI STN.,BYAPPANAHALLI STN.
+KARMELARAM STN.,CRLM,,12.90929,77.70558,,KARMELARAM STN.,KARMELARAM STN.
+CHENNASANDRA STN.,CSDR,,13.01192,77.66298,,CHENNASANDRA STN.,CHENNASANDRA STN.
+DEVANAHALLI STN.,DHL,,13.247433,77.705199,,DEVANAHALLI STN.,DEVANAHALLI STN.
+DODJALA STN.,DJL,,13.18062,77.64008,,DODJALA STN.,DODJALA STN.
+GOL HALLI STN.,GHL,,13.145924,77.416867,,GOL HALLI STN.,GOL HALLI STN.
+GNANA BHARATI STN.,GNB,Bangalore University,12.93562,77.51166,,GNANA BHARATI STN.,GNANA BHARATI STN.
+HEBBAL STN.,HEB,,13.04254,77.58633,,HEBBAL STN.,HEBBAL STN.
+HEIJALA STN.,HJL,,12.84884,77.41879,,HEIJALA STN.,HEIJALA STN.
+HEELALIGE STN.,HLE,,12.81144,77.71096,,HEELALIGE STN.,HEELALIGE STN.
+KODIGEHALLI STN.,KDGH,,13.06238,77.57463,,KODIGEHALLI STN.,KODIGEHALLI STN.
+KENGERI STN.,KGI,,12.91648,77.483386,,KENGERI STN.,KENGERI STN.
+K R PURAM STN.,KJM,,13.00079,77.67682,,K R PURAM STN.,K R PURAM STN.
+LOTTEGOLLAHALLI STN.,LOGH,,13.04307,77.56253,,LOTTEGOLLAHALLI STN.,LOTTEGOLLAHALLI STN.
+MALLESWARAM STN.,MWM,,13.00075,77.56373,,MALLESWARAM STN.,MALLESWARAM STN.
+NAYANDAHALLI STN.,NYH,,12.941216,77.52017,,NAYANDAHALLI STN.,NAYANDAHALLI STN.
+BANGALORE CITY STN.,SBC,,12.97892,77.56794,,BANGALORE CITY STN.,BANGALORE CITY STN.
+BETTA HASOOR STN.,TLS,,13.16722,77.60651,,BETTA HASOOR STN.,BETTA HASOOR STN.
+WHITEFIELD STN.,WFD,,12.99594,77.76084,,WHITEFIELD STN.,WHITEFIELD STN.
+YELAHANKA STN.,YNK,,13.10192,77.59296,,YELAHANKA STN.,YELAHANKA STN.
+YESWANTAPUR STN.,YPR,,13.03316,77.5464,,YESWANTAPUR STN.,YESWANTAPUR STN.
