@@ -30,3 +30,12 @@ Architecture:
 Model:
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/645c0b7b-518c-48dd-9d7c-758f10f4428c" />
+
+
+## 🎥 Project Demo
+
+Experience RouteCraft in action — an AI-powered smart commute assistant that finds the fastest, cheapest, and most efficient routes.
+
+🔗 **Watch Demo Video:**
+https://raw.githubusercontent.com/Sharanyagh2023/RouteCraft/main/routecraft_video.mp4
+
