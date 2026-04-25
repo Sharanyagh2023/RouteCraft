@@ -43,3 +43,17 @@ https://drive.google.com/file/d/1XahADlnsHirRe_pyAWrbRwy4IsuCHMKs/view?usp=shari
 ## 🚀 Live Demo
 
 👉 Try the app here: https://routecraft-ai.vercel.app/
+
+## 🚀 Local Setup & Access
+
+### Frontend
+🔗 http://127.0.0.1:3000
+
+### Backend
+🔗 http://127.0.0.1:8000
+
+### API Documentation
+🔗 http://127.0.0.1:8000/docs
+
+---
+
