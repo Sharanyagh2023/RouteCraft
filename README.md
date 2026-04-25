@@ -32,6 +32,8 @@ Model:
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/645c0b7b-518c-48dd-9d7c-758f10f4428c" />
 
 
+<img width="1498" height="246" alt="image" src="https://github.com/user-attachments/assets/4a907b49-32c4-461a-ad4d-b6eb8eb7f1cc" />
+
 ## 🎬 Promotional Video
 
 > Discover how RouteCraft transforms your daily commute with intelligent route planning and seamless multi-modal travel.
