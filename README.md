@@ -37,5 +37,5 @@ Model:
 Experience RouteCraft in action — an AI-powered smart commute assistant that finds the fastest, cheapest, and most efficient routes.
 
 🔗 **Watch Demo Video:**
-https://raw.githubusercontent.com/Sharanyagh2023/RouteCraft/main/routecraft_video.mp4
+https://drive.google.com/file/d/1XahADlnsHirRe_pyAWrbRwy4IsuCHMKs/view?usp=sharing
 
