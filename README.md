@@ -22,3 +22,11 @@ An intelligent travel agent that eliminates app-switching fatigue by dynamically
 
 <img width="600 height="900" alt="image" src="https://github.com/user-attachments/assets/489f6cb9-790f-4b8a-b6d5-a7da6b9abb6f" />
 
+Architecture:
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/0bf92837-0990-46b5-b599-3ba5a200415d" />
+
+
+Model:
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/645c0b7b-518c-48dd-9d7c-758f10f4428c" />
