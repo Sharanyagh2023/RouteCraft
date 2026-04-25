@@ -32,10 +32,11 @@ Model:
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/645c0b7b-518c-48dd-9d7c-758f10f4428c" />
 
 
-## 🎥 Project Demo
+## 🎬 Promotional Video
 
-Experience RouteCraft in action — an AI-powered smart commute assistant that finds the fastest, cheapest, and most efficient routes.
+> Discover how RouteCraft transforms your daily commute with intelligent route planning and seamless multi-modal travel.
 
-🔗 **Watch Demo Video:**
+
+🔗 **Watch Promo Video:**
 https://drive.google.com/file/d/1XahADlnsHirRe_pyAWrbRwy4IsuCHMKs/view?usp=sharing
 
